@@ -5,10 +5,10 @@ sys:x:3:root,bin
 adm:x:4:root,daemon
 tty:x:5:
 disk:x:6:root
-lp:x:7:daemon
+lp:x:7:daemon,sauditor
 mem:x:8:
 kmem:x:9:
-wheel:x:10:root
+wheel:x:10:root,sauditor
 ftp:x:11:
 mail:x:12:
 uucp:x:14:
@@ -23,12 +23,12 @@ games:x:50:
 lock:x:54:
 uuidd:x:68:
 dbus:x:81:
-network:x:90:
-video:x:91:
-audio:x:92:
+network:x:90:sauditor
+video:x:91:sauditor
+audio:x:92:sauditor
 optical:x:93:
 floppy:x:94:
-storage:x:95:
+storage:x:95:sauditor
 scanner:x:96:
 input:x:97:
 power:x:98:
@@ -52,4 +52,4 @@ brlapi:x:995:
 lightdm:x:620:
 git:x:619:
 rpc:x:32:
-autologin:x:1000:
+autologin:x:1000:sauditor
