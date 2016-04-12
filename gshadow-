@@ -55,3 +55,4 @@ rpc:!::
 autologin:!::sauditor
 mysql:!::
 netdata:!::
+redis:!::
