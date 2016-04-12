@@ -55,3 +55,4 @@ rpc:x:32:
 autologin:x:1000:sauditor
 mysql:x:89:
 netdata:x:618:
+redis:x:617:

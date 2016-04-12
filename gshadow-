@@ -54,3 +54,4 @@ git:!::
 rpc:!::
 autologin:!::sauditor
 mysql:!::
+netdata:!::
