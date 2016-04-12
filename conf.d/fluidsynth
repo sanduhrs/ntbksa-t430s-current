@@ -1,0 +1,3 @@
+# Created by Cnchi, Antergos installer
+SYNTHOPTS="-is -a pulse -m alsa_seq -r 48000"
+
