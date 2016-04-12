@@ -25,7 +25,6 @@ unset TERMCAP
 
 # Man is much better than us at figuring this out
 unset MANPATH
-# >>>>BEGIN ADDED BY CNCHI INSTALLER<<<< #
-BROWSER=/usr/bin/chromium
-EDITOR=/usr/bin/nano
-# >>>>>END ADDED BY CNCHI INSTALLER<<<<< #
+
+BROWSER=/usr/bin/firefox
+EDITOR=/usr/bin/vim
