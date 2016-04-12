@@ -46,4 +46,4 @@ GRUB_THEME="/boot/grub/themes/Antergos-Default/theme.txt"
 
 #GRUB_SAVEDEFAULT="true"
 
-GRUB_ENABLE_CRYPTODISK="y"
+#GRUB_ENABLE_CRYPTODISK="y"
