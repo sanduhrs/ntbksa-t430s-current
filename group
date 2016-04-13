@@ -18,7 +18,7 @@ locate:x:21:
 rfkill:x:24:
 smmsp:x:25:
 proc:x:26:polkitd
-http:x:33:
+http:x:33:sauditor
 games:x:50:
 lock:x:54:
 uuidd:x:68:
@@ -33,7 +33,7 @@ scanner:x:96:
 input:x:97:
 power:x:98:
 nobody:x:99:
-users:x:100:
+users:x:100:http
 systemd-journal:x:190:
 systemd-journal-gateway:x:191:
 systemd-timesync:x:192:

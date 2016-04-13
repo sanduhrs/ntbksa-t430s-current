@@ -18,7 +18,7 @@ locate:::
 rfkill:x::
 smmsp:::
 proc:::polkitd
-http:::
+http:::sauditor
 games:::
 lock:::
 uuidd:x::
@@ -57,3 +57,4 @@ mysql:!::
 netdata:!::
 redis:!::
 dnsmasq:!::
+gdm:!::
