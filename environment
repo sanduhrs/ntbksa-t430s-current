@@ -1,9 +1,7 @@
-#
-# This file is parsed by pam_env module
+This file is parsed by pam_env module
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 
-TERM=/usr/bin/terminator
 BROWSER=/usr/bin/firefox
 EDITOR=/usr/bin/vim
