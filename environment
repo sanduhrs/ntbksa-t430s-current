@@ -4,5 +4,6 @@
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 
+TERM=/usr/bin/terminator
 BROWSER=/usr/bin/firefox
 EDITOR=/usr/bin/vim
