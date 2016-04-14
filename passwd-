@@ -28,3 +28,4 @@ mysql:x:89:89::/var/lib/mysql:/bin/false
 netdata:x:618:618:netdata:/:/usr/bin/nologin
 redis:x:617:617::/var/lib/redis:/bin/false
 dnsmasq:x:616:616:dnsmasq daemon:/:/usr/bin/nologin
+gdm:x:120:120:Gnome Display Manager:/var/lib/gdm:/sbin/nologin

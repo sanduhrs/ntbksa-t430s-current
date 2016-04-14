@@ -19,7 +19,7 @@ rfkill:x:24:
 smmsp:x:25:
 proc:x:26:polkitd
 http:x:33:sauditor
-games:x:50:
+games:x:50:sauditor
 lock:x:54:
 uuidd:x:68:
 dbus:x:81:
@@ -29,11 +29,11 @@ audio:x:92:sauditor
 optical:x:93:
 floppy:x:94:
 storage:x:95:sauditor
-scanner:x:96:
+scanner:x:96:sauditor
 input:x:97:
-power:x:98:
+power:x:98:sauditor
 nobody:x:99:
-users:x:100:
+users:x:100:http
 systemd-journal:x:190:
 systemd-journal-gateway:x:191:
 systemd-timesync:x:192:

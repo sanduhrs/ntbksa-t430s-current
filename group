@@ -58,3 +58,4 @@ netdata:x:618:
 redis:x:617:
 dnsmasq:x:616:
 gdm:x:120:
+ldap:x:439:

@@ -33,7 +33,7 @@ scanner:x::
 input:x::
 power:x::
 nobody:::
-users:::
+users:::http
 systemd-journal:::
 systemd-journal-gateway:::
 systemd-timesync:::
