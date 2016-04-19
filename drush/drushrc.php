@@ -88,8 +88,6 @@
 # $options['shell-aliases']['site-get'] = '@none php-eval "return drush_sitealias_site_get();"';
 // Add a 'pm-clone' to simplify git cloning from drupal.org.
 # $options['shell-aliases']['pm-clone'] = 'pm-download --gitusername=YOURUSERNAME --package-handler=git_drupalorg';
-// Save a sanitized sql dump. Customize alias names and --result-file.
-# $options['shell-aliases']['pm-clone'] = 'drush sql-sync @source @temp --sanitize && drush @temp sql-dump --result-file=/example && drush @temp sql-drop';
 
 // Load a drushrc.php configuration file from the current working directory.
 # $options['config'][] = './drushrc.php';
@@ -243,7 +241,7 @@
 # $options['skip-tables']['common'] = array('migration_*');
 
 /**
- * Override specific entries in Drupal's variable system or settings.php (D7 only).
+ * Override specific entries in Drupal's variable system or settings.php (D6/D7 only).
  */
 # $options['variables']['site_name'] = 'My Drupal site';
 # $options['variables']['theme_default'] = 'minnelli';
@@ -288,3 +286,4 @@
 # $command_specific['site-install'] = array('account-name' => 'alice', 'account-pass' => 'secret');
 
 // Use Drupal version specific CLI history instead of per site.
+# $command_specific['core-cli'] = array('version-history' => TRUE);
