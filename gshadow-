@@ -59,4 +59,4 @@ redis:!::
 dnsmasq:!::
 gdm:!::
 ldap:!!::
-docker:!!::
+docker:!!::sauditor
