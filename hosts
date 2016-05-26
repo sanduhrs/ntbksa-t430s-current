@@ -5,6 +5,8 @@
 #<ip-address>	<hostname.domain.org>	<hostname>
 #109.239.60.136  imap.erdfisch.de
 #109.239.60.136  smtp.erdfisch.de
+176.221.42.1    webmail.audiens.de
+176.221.42.1    webmail.corinna-clack.de
 127.0.0.1	localhost.localdomain	localhost
 ::1		localhost.localdomain	localhost
 
