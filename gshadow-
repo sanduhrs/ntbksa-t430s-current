@@ -60,3 +60,4 @@ dnsmasq:!::
 gdm:!::
 ldap:!!::
 docker:!!::sauditor
+vboxusers:!!::

@@ -60,3 +60,4 @@ dnsmasq:x:616:
 gdm:x:120:
 ldap:x:439:
 docker:x:994:sauditor
+vboxusers:x:108:
