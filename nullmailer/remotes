@@ -1,0 +1,1 @@
+smarthost.example.org smtp --port=25 --auth-login --user=user --pass=pass
