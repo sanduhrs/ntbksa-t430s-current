@@ -19,30 +19,30 @@
 			</dir>
 		</dir>
 		<dir name="smb">
-			<entry name="workgroup" mtime="1460454432" schema="/schemas/system/smb/workgroup"/>
+			<entry name="workgroup" mtime="1470256498" schema="/schemas/system/smb/workgroup"/>
 		</dir>
 		<dir name="proxy">
-			<entry name="autoconfig_url" mtime="1460454432" schema="/schemas/system/proxy/autoconfig_url"/>
-			<entry name="socks_port" mtime="1460454432" schema="/schemas/system/proxy/socks_port"/>
-			<entry name="socks_host" mtime="1460454432" schema="/schemas/system/proxy/socks_host"/>
-			<entry name="ftp_port" mtime="1460454432" schema="/schemas/system/proxy/ftp_port"/>
-			<entry name="ftp_host" mtime="1460454432" schema="/schemas/system/proxy/ftp_host"/>
-			<entry name="secure_port" mtime="1460454432" schema="/schemas/system/proxy/secure_port"/>
-			<entry name="secure_host" mtime="1460454432" schema="/schemas/system/proxy/secure_host"/>
-			<entry name="mode" mtime="1460454432" schema="/schemas/system/proxy/mode"/>
+			<entry name="autoconfig_url" mtime="1470256498" schema="/schemas/system/proxy/autoconfig_url"/>
+			<entry name="socks_port" mtime="1470256498" schema="/schemas/system/proxy/socks_port"/>
+			<entry name="socks_host" mtime="1470256498" schema="/schemas/system/proxy/socks_host"/>
+			<entry name="ftp_port" mtime="1470256498" schema="/schemas/system/proxy/ftp_port"/>
+			<entry name="ftp_host" mtime="1470256498" schema="/schemas/system/proxy/ftp_host"/>
+			<entry name="secure_port" mtime="1470256498" schema="/schemas/system/proxy/secure_port"/>
+			<entry name="secure_host" mtime="1470256498" schema="/schemas/system/proxy/secure_host"/>
+			<entry name="mode" mtime="1470256498" schema="/schemas/system/proxy/mode"/>
 		</dir>
 		<dir name="http_proxy">
-			<entry name="ignore_hosts" mtime="1460454432" schema="/schemas/system/http_proxy/ignore_hosts"/>
-			<entry name="authentication_password" mtime="1460454432" schema="/schemas/system/http_proxy/authentication_password"/>
-			<entry name="authentication_user" mtime="1460454432" schema="/schemas/system/http_proxy/authentication_user"/>
-			<entry name="use_authentication" mtime="1460454432" schema="/schemas/system/http_proxy/use_authentication"/>
-			<entry name="port" mtime="1460454432" schema="/schemas/system/http_proxy/port"/>
-			<entry name="host" mtime="1460454432" schema="/schemas/system/http_proxy/host"/>
-			<entry name="use_http_proxy" mtime="1460454432" schema="/schemas/system/http_proxy/use_http_proxy"/>
+			<entry name="ignore_hosts" mtime="1470256498" schema="/schemas/system/http_proxy/ignore_hosts"/>
+			<entry name="authentication_password" mtime="1470256498" schema="/schemas/system/http_proxy/authentication_password"/>
+			<entry name="authentication_user" mtime="1470256498" schema="/schemas/system/http_proxy/authentication_user"/>
+			<entry name="use_authentication" mtime="1470256498" schema="/schemas/system/http_proxy/use_authentication"/>
+			<entry name="port" mtime="1470256498" schema="/schemas/system/http_proxy/port"/>
+			<entry name="host" mtime="1470256498" schema="/schemas/system/http_proxy/host"/>
+			<entry name="use_http_proxy" mtime="1470256498" schema="/schemas/system/http_proxy/use_http_proxy"/>
 		</dir>
 		<dir name="dns_sd">
-			<entry name="extra_domains" mtime="1460454432" schema="/schemas/system/dns_sd/extra_domains"/>
-			<entry name="display_local" mtime="1460454432" schema="/schemas/system/dns_sd/display_local"/>
+			<entry name="extra_domains" mtime="1470256498" schema="/schemas/system/dns_sd/extra_domains"/>
+			<entry name="display_local" mtime="1470256498" schema="/schemas/system/dns_sd/display_local"/>
 		</dir>
 	</dir>
 	<dir name="schemas">
@@ -50,7 +50,7 @@
 			<dir name="nautilus-actions">
 				<dir name="mandatory">
 					<dir name="na-desktop">
-						<entry name="locked" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+						<entry name="locked" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 							<local_schema locale="C" short_desc="Legt fest, ob der Ein-/Ausgabetreiber des Desktops gesperrt ist.">
 								<default type="bool" value="false"/>
 								<longdesc>Wenn auf »wahr« gesetzt (höchstwahrscheinlich als obligatorischer Schlüssel), verhindert dies die Änderung aller aus *.desktop-Dateien gelesenen Objekte, Menüs und Aktionen durch Nautilus-Aktionen.</longdesc>
@@ -58,7 +58,7 @@
 						</entry>
 					</dir>
 					<dir name="na-gconf">
-						<entry name="locked" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+						<entry name="locked" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 							<local_schema locale="C" short_desc="Legt fest, ob der Ein-/Ausgabetreiber von GConf gesperrt ist.">
 								<default type="bool" value="false"/>
 								<longdesc>Wenn auf »wahr« gesetzt (höchstwahrscheinlich als obligatorischer Schlüssel), verhindert dies die Änderung aller von GConf gelesenen Objekte, Menüs und Aktionen durch Nautilus-Aktionen.</longdesc>
@@ -66,7 +66,7 @@
 						</entry>
 					</dir>
 					<dir name="all">
-						<entry name="locked" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+						<entry name="locked" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 							<local_schema locale="C" short_desc="Legt fest, ob die gesamte Konfiguration gesperrt ist">
 								<default type="bool" value="false"/>
 								<longdesc>The whole configuration must be understood here as the global set and order of menus and actions.
@@ -77,7 +77,7 @@ As the order of items is also locked, the level zero itself cannot be modified, 
 					</dir>
 				</dir>
 				<dir name="preferences">
-					<entry name="schemes" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="schemes" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Liste vorgegebener Schemata">
 							<default type="list" ltype="string">
 							</default>
@@ -85,82 +85,82 @@ As the order of items is also locked, the level zero itself cannot be modified, 
 A default default list is hardcoded in nautilus-actions-config-tool, which may be updated by the user.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="preferences-editor" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="preferences-editor" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Einstellungsdialogs">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Einstellungsdialogs. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-window" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="main-window" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Hauptfensters">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Hauptfensters. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-tools-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-tools-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Werkzeuge-Werkzeugleiste anzeigen">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob die Werkzeuge-Werkzeugleiste im Hauptfenster angezeigt werden soll oder nicht.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-paned" mtime="1468396006" type="schema" stype="int" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-paned" mtime="1468396006" type="schema" stype="int" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Position der Hauptleiste">
 							<default type="int" value="100"/>
 							<longdesc>Breite der Seitenleiste des Hauptfensters; die Voreinstellung wird durch den UI-Manager vorgegeben</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-help-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-help-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Hilfe-Werkzeugleiste anzeigen">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob die Hilfe-Werkzeugleiste im Hauptfenster angezeigt werden soll oder nicht.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-file-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-file-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Datei-Werkzeugleiste anzeigen">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob die Datei-Werkzeugleiste im Hauptfenster angezeigt werden soll oder nicht.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-edit-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-edit-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Bearbeiten-Werkzeugleiste anzeigen">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob die Bearbeiten-Werkzeugleiste im Hauptfenster angezeigt werden soll oder nicht.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-relabel-profiles" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-relabel-profiles" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob Profile bei Einfügen oder Duplizieren neu benannt werden sollen">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob Profile bei Einfügen oder Duplizieren neu benannt werden sollen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-relabel-menus" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-relabel-menus" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob Menüs bei Einfügen oder Duplizieren neu benannt werden sollen">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob Menüs bei Einfügen oder Duplizieren neu benannt werden sollen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-relabel-actions" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-relabel-actions" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob Aktionen bei Einfügen oder Duplizieren neu benannt werden sollen">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob Aktionen bei Einfügen oder Duplizieren neu benannt werden sollen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-level-zero" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="iprefs-level-zero" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Liste der Einträge in der obersten Ebene der Hierarchie">
 							<default type="list" ltype="string">
 							</default>
 							<longdesc>UUID der Einträge in der obersten Ebene der Hierarchie. Falls der Schlüssel nicht gefunden wurde oder leer ist, dann werden alle Objekte als Liste in einer einzigen Ebene angenommen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-create-root-menu" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-create-root-menu" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Ein Basismenü für »Nautilus-Aktionen« definieren">
 							<default type="bool" value="true"/>
 							<longdesc>Falls »WAHR«, so wird ein Menüeintrag »Nautilus-Aktionen« im Kontextmenü von Nautilus eingefügt, welcher das Basismenü aller verfügbaren Aktionen ist.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-alphabetical-order" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-alphabetical-order" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Sortierreihenfolge">
 							<default type="string">
 								<stringvalue>0</stringvalue>
@@ -171,20 +171,20 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 - &quot;ManualOrder&quot;: user is free to reorder them via Nautilus-Actions configuration tool.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-add-about-item" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-add-about-item" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="»Info«-Eintrag zum Kontextmenü von Nautilus hinzufügen">
 							<default type="bool" value="true"/>
 							<longdesc>Falls »WAHR«, und falls der Benutzer ein einziges Basismenü für diese Aktionen definiert hat, dann wird »Info zu Nautilus-Aktionen« am Ende des ersten Untermenüs angezeigt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="io-providers-order" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="io-providers-order" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Schreibpriorität der Ein-/Ausgabetreiber">
 							<default type="list" ltype="string">
 							</default>
 							<longdesc>Die Reihenfolge der Ein-/Ausgabetreiber, die angewendet wird, wenn ein neuer Eintrag in ein Speicher-Subsystem geschrieben werden soll.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-mode" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="import-mode" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Importmodus">
 							<default type="string">
 								<stringvalue>NoImport</stringvalue>
@@ -196,13 +196,13 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 - &quot;Ask&quot;: ask the user each time.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-keep-choicee" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="import-keep-choicee" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählten Importmodus merken">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob das Importsystem den zuletzt gewählten Importmodus merken und erneut anwenden soll.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-folder-uri" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="import-folder-uri" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählter Ordner">
 							<default type="string">
 								<stringvalue>/tmp</stringvalue>
@@ -210,14 +210,14 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 							<longdesc>Zuletzt ausgewählter Ordner zum Import neuer Aktionen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-assistant" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="import-assistant" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Fensters des Importassistenten">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Fensters des Importassistenten. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-ask-user-last-mode" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="import-ask-user-last-mode" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Letzter vom Benutzer gewählter Importmodus">
 							<default type="string">
 								<stringvalue>NoImport</stringvalue>
@@ -228,14 +228,14 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 - &quot;Override&quot;: override the existing action with the imported one.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-ask-user" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="import-ask-user" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des interaktiven Dialogs für den Import">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des interaktiven Dialogs für den Import. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="ifolders-uri" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="ifolders-uri" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählter Ordner">
 							<default type="string">
 								<stringvalue>/bin</stringvalue>
@@ -243,21 +243,21 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 							<longdesc>Der zuletzt gewählte Ordner beim Durchsuchen nach einer Adresse im Karteireiter »Ordner«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="ifolders-chooser" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="ifolders-chooser" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Fensters mit dem Adresswähler">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position and size of the URI  chooser window in the Folders tab ; default is set by the window manager.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icommand-legend-dialog" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="icommand-legend-dialog" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Dialogs mit der Legende">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Dialogs mit der Legende; die Voreinstellung wird durch den UI-Manager vorgegeben.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icommand-folder-uri" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="icommand-folder-uri" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählter Ordner">
 							<default type="string">
 								<stringvalue>/bin</stringvalue>
@@ -265,14 +265,14 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 							<longdesc>Der zuletzt gewählte Ordner beim Durchsuchen nach einem Befehl im Karteireiter »Befehl«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icommand-command-chooser" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="icommand-command-chooser" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Fensters mit dem Befehlswähler">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Fensters mit dem Befehlswähler im Reiter »Befehl«; die Voreinstellung wird durch die Fensterverwaltung vorgegeben.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="export-format" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="export-format" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Bevorzugtes Exportformat">
 							<default type="string">
 								<stringvalue>/tmp</stringvalue>
@@ -285,7 +285,7 @@ Possible values are:
 - &quot;Ask&quot;: the user will be asked at runtime for the format he wishes to use.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="export-folder-uri" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="export-folder-uri" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählter Ordner">
 							<default type="string">
 								<stringvalue>/tmp</stringvalue>
@@ -293,32 +293,32 @@ Possible values are:
 							<longdesc>Zuletzt ausgewählter Ordner zum Export der Aktionen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="export-assistant" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="export-assistant" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Fensters des Exportassistenten">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Fensters des Exportassistenten. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="auto-save-period" mtime="1468396006" type="schema" stype="int" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="auto-save-period" mtime="1468396006" type="schema" stype="int" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Wiederholung des automatischen Speicherns">
 							<default type="int" value="5"/>
 							<longdesc>Legt den Zeitabstand in Minuten für automatisches Speichern fest.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="auto-save-on" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="auto-save-on" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob das Funktionsmerkmal zum automatischen Speichern aktiviert werden soll">
 							<default type="bool" value="false"/>
 							<longdesc>Falls »WAHR«, werden ungespeicherte Änderungen regelmäßig und automatisch gespeichert.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="assistant-esc-quit" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="assistant-esc-quit" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob mit der Esc-Taste Assistenten beendet werden können">
 							<default type="bool" value="true"/>
 							<longdesc>Falls »WAHR«, so kann der Assistent durch Drücken der Esc-Taste geschlossen werden.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="assistant-esc-confirm" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="assistant-esc-confirm" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Bestätigung beim Beenden mit Esc">
 							<default type="bool" value="true"/>
 							<longdesc>Falls »WAHR«, wird nach dem Beenden eines Assistenten durch Drücken der Esc-Taste um Bestätigung des Vorgangs gebeten.</longdesc>
@@ -326,7 +326,7 @@ Possible values are:
 					</entry>
 				</dir>
 				<dir name="configurations">
-					<entry name="folders" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="folders" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Liste von Ordnern">
 							<default type="list" ltype="string">
 								<li type="string">
@@ -339,7 +339,7 @@ This is only used when there is no selection, or the selection only contains dir
 Defaults to &apos;/&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="schemes" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="schemes" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Die Liste der Schemata, die auf die ausgewählten Datei(en) und Ordner zutreffen müssen">
 							<default type="list" ltype="string">
 								<li type="string">
@@ -361,7 +361,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;file&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="accept-multiple-files" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="accept-multiple-files" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Whether the selection may be multiple">
 							<default type="bool" value="false"/>
 							<longdesc>Wenn ein oder mehrere Dateien oder Ordner ausgewählt werden dürfen, dann setzen Sie diesen Schlüssel auf »wahr«. Andernfalls auf »falsch«.
@@ -369,7 +369,7 @@ Dies wirkt sich nur auf die Zielauswahl aus.
 Vorgabe ist »falsch«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="isdir" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="isdir" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Whether the profile applies to folders">
 							<default type="bool" value="false"/>
 							<longdesc>Set to &apos;true&apos; if the selection can have folders, to &apos;false&apos; otherwise.
@@ -382,7 +382,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;false&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="isfile" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="isfile" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Whether the profile applies to files">
 							<default type="bool" value="true"/>
 							<longdesc>Set to &apos;true&apos; if the selection can have files, to &apos;false&apos; otherwise.
@@ -395,7 +395,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;true&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="mimetypes" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="mimetypes" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Die Liste der Muster, die beim Filtern der ausgewählten Datei(en) oder Ordner nach dem MIME-Typen zutreffen müssen">
 							<default type="list" ltype="string">
 								<li type="string">
@@ -407,7 +407,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;*&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="matchcase" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="matchcase" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Ist gesetzt, falls für die angegebenen Basisnamen Groß-/Kleinschreibung berücksichtigt werden soll (Vorgabe)">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob beim Filtern nach Dateinamen Groß- und Kleinschreibung beachtet werden soll (»wahr«), andernfalls »falsch«. Falls Sie beispielsweise für einen Dateinamen Groß-/Kleinschreibung berücksichtigen wollen, setzen Sie diesen Schlüssel auf »wahr«. Falls Sie bei »*.jpg« auch »*.JPG« erfassen wollen, setzen Sie diesen Schlüssel auf »falsch«.
@@ -415,7 +415,7 @@ Dies wirkt sich nur auf die Zielauswahl aus, sofern eine Auswahl existiert.
 Vorgabe ist »wahr«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="basenames" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="basenames" mtime="1468396006" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Die Liste der Muster, die auf die ausgewählten Datei(en) und Ordner zutreffen müssen">
 							<default type="list" ltype="string">
 								<li type="string">
@@ -427,7 +427,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;*&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="parameters" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="parameters" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Befehlsparameter">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -447,7 +447,7 @@ The parameters may contain some special tokens which are replaced by the informa
 %%: a percent sign.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="path" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="path" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Pfad des Befehls">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -455,7 +455,7 @@ The parameters may contain some special tokens which are replaced by the informa
 							<longdesc>Der vollständige Dateisystempfad des auszuführenden Befehls, wenn der Benutzer auf den Eintrag im Nautilus-Kontextmenü oder in der Werkzeugleiste klickt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="toolbar-label" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="toolbar-label" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Beschriftung des Objektes in der Werkzeugleiste">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -465,14 +465,14 @@ Beachten Sie, dass die aktuelle Anzeige von Ihren GNOME-Einstellungen abhängt.
 Wenn nicht gesetzt, ist die Vorgabe die Bezeichnung des Kontextmenüs.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="target-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="target-toolbar" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Ziel-Werkzeugleiste">
 							<default type="bool" value="false"/>
 							<longdesc>Whether the action is candidate to be displayed in file manager toolbar.
 Note, that as of Nautilus 2.26, menus can not be candidate to toolbar display.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="target-selection" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="target-selection" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Targets the context menu (default)">
 							<default type="bool" value="true"/>
 							<longdesc>Whether the action of the menu targets the selection file manager context menus.
@@ -480,14 +480,14 @@ This used to be the historical behavior.
 Defaults to TRUE.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="enabled" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="enabled" mtime="1468396006" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Whether the action or the menu is enabled (default)">
 							<default type="bool" value="true"/>
 							<longdesc>Falls die Aktion oder das Menü deaktiviert ist, erscheint sie niemals im Kontextmenü des Dateimanagers.
 Vorgabe ist »wahr«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icon" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="icon" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Das Symbol des Kontextmenüeintrages">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -496,7 +496,7 @@ Vorgabe ist »wahr«.</longdesc>
 Das kann der übersetzte Name eines Symbols aus einem Thema sein oder ein vollständiger Pfad zu einem entsprechenden Bild.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="tooltip" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="tooltip" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Die Minihilfe des Kontextmenüeintrages">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -504,7 +504,7 @@ Das kann der übersetzte Name eines Symbols aus einem Thema sein oder ein vollst
 							<longdesc>Die Minihilfe für den Menüeintrag, die in der Nautilus-Statusleiste angezeigt wird, wenn der Benutzer mit der Maus über den Eintrag im Nautilus-Kontextmenü fährt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="label" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="label" mtime="1468396006" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Die Bezeichnung des Kontextmenüeintrags (obligatorisch)">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -612,8 +612,8 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 				</dir>
 			</dir>
 			<dir name="smb">
-				<entry name="workgroup" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="SMB workgroup">
+				<entry name="workgroup" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="SMB-Arbeitsgruppe">
 						<default type="string">
 							<stringvalue></stringvalue>
 						</default>
@@ -624,61 +624,61 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 				</entry>
 			</dir>
 			<dir name="proxy">
-				<entry name="autoconfig_url" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="Automatic proxy configuration URL">
+				<entry name="autoconfig_url" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="URL zur automatischen Proxy-Konfiguration">
 						<default type="string">
 							<stringvalue></stringvalue>
 						</default>
-						<longdesc>URL that provides proxy configuration values.</longdesc>
+						<longdesc>URL, die Proxy-Konfigurationswerte liefert.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="socks_port" mtime="1460454432" type="schema" stype="int" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="SOCKS proxy port">
+				<entry name="socks_port" mtime="1470256498" type="schema" stype="int" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Port am SOCKS-Proxy">
 						<default type="int" value="0"/>
 						<longdesc>The port on the machine defined by &quot;/system/proxy/socks_host&quot;
         that you proxy through.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="socks_host" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="SOCKS proxy host name">
+				<entry name="socks_host" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Rechnername des Socks-Proxys">
 						<default type="string">
 							<stringvalue></stringvalue>
 						</default>
-						<longdesc>The machine name to proxy socks through.</longdesc>
+						<longdesc>Der Rechnername des Socks-Proxys.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="ftp_port" mtime="1460454432" type="schema" stype="int" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="FTP proxy port">
+				<entry name="ftp_port" mtime="1470256498" type="schema" stype="int" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Port am FTP-Proxy">
 						<default type="int" value="0"/>
 						<longdesc>The port on the machine defined by &quot;/system/proxy/ftp_host&quot;
         that you proxy through.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="ftp_host" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="FTP proxy host name">
+				<entry name="ftp_host" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Rechnername des FTP-Proxys">
 						<default type="string">
 							<stringvalue></stringvalue>
 						</default>
-						<longdesc>The machine name to proxy FTP through.</longdesc>
+						<longdesc>Der Rechnername des FTP-Proxys.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="secure_port" mtime="1460454432" type="schema" stype="int" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="Secure HTTP proxy port">
+				<entry name="secure_port" mtime="1470256498" type="schema" stype="int" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Port am sicheren HTTP-Proxy">
 						<default type="int" value="0"/>
 						<longdesc>The port on the machine defined by &quot;/system/proxy/secure_host&quot;
         that you proxy through.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="secure_host" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="Secure HTTP proxy host name">
+				<entry name="secure_host" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Rechnername des sicheren HTTP-Proxys">
 						<default type="string">
 							<stringvalue></stringvalue>
 						</default>
-						<longdesc>The machine name to proxy secure HTTP through.</longdesc>
+						<longdesc>Der Rechnername des sicheren HTTP-Proxys.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="mode" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="Proxy configuration mode">
+				<entry name="mode" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Proxy-Konfigurationsmodus">
 						<default type="string">
 							<stringvalue>none</stringvalue>
 						</default>
@@ -688,8 +688,8 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 				</entry>
 			</dir>
 			<dir name="http_proxy">
-				<entry name="ignore_hosts" mtime="1460454432" type="schema" stype="list" owner="gnome-vfs" list_type="string">
-					<local_schema locale="C" short_desc="Non-proxy hosts">
+				<entry name="ignore_hosts" mtime="1470256498" type="schema" stype="list" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0" list_type="string">
+					<local_schema locale="C" short_desc="Nicht-Proxy-Rechner">
 						<default type="list" ltype="string">
 							<li type="string">
 								<stringvalue>localhost</stringvalue>
@@ -705,24 +705,24 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 	netmask (something like 192.168.0.0/24).</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="authentication_password" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="HTTP proxy password">
+				<entry name="authentication_password" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Passwort am HTTP-Proxy">
 						<default type="string">
 							<stringvalue></stringvalue>
 						</default>
-						<longdesc>Password to pass as authentication when doing HTTP proxying.</longdesc>
+						<longdesc>Zur HTTP-Proxy-Legitimation zu übergebendes Passwort</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="authentication_user" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="HTTP proxy username">
+				<entry name="authentication_user" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Benutzername am HTTP-Proxy">
 						<default type="string">
 							<stringvalue></stringvalue>
 						</default>
-						<longdesc>User name to pass as authentication when doing HTTP proxying.</longdesc>
+						<longdesc>Zur HTTP-Proxy-Legitimation zu übergebender Benutzername.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="use_authentication" mtime="1460454432" type="schema" stype="bool" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="Authenticate proxy server connections">
+				<entry name="use_authentication" mtime="1470256498" type="schema" stype="bool" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Verbindungen mit dem Proxy-Server legitimieren">
 						<default type="bool" value="false"/>
 						<longdesc>If true, then connections to the proxy server require
         authentication. The username/password combo is defined by
@@ -730,23 +730,23 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
         &quot;/system/http_proxy/authentication_password&quot;.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="port" mtime="1460454432" type="schema" stype="int" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="HTTP proxy port">
+				<entry name="port" mtime="1470256498" type="schema" stype="int" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Port am HTTP-Proxy">
 						<default type="int" value="8080"/>
 						<longdesc>The port on the machine defined by &quot;/system/http_proxy/host&quot;
         that you proxy through.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="host" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="HTTP proxy host name">
+				<entry name="host" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Rechnername des HTTP-Proxys">
 						<default type="string">
 							<stringvalue></stringvalue>
 						</default>
-						<longdesc>The machine name to proxy HTTP through.</longdesc>
+						<longdesc>Der Rechnername des HTTP-Proxys.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="use_http_proxy" mtime="1460454432" type="schema" stype="bool" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="Use HTTP proxy">
+				<entry name="use_http_proxy" mtime="1470256498" type="schema" stype="bool" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="HTTP-Proxy verwenden">
 						<default type="bool" value="false"/>
 						<longdesc>Enables the proxy settings when accessing HTTP over the
         Internet.</longdesc>
@@ -754,8 +754,8 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 				</entry>
 			</dir>
 			<dir name="dns_sd">
-				<entry name="extra_domains" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="Extra domains to look for DNS-SD services in">
+				<entry name="extra_domains" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Zusätzlich nach DNS-SD-Diensten zu durchsuchende Domänen">
 						<default type="string">
 							<stringvalue></stringvalue>
 						</default>
@@ -763,12 +763,12 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
         visible in the &quot;network:///&quot; location.</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="display_local" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-					<local_schema locale="C" short_desc="How to display local DNS-SD service">
+				<entry name="display_local" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+					<local_schema locale="C" short_desc="Legt fest, wie der lokale DNS-SD-Dienst angezeigt werden soll">
 						<default type="string">
 							<stringvalue>merged</stringvalue>
 						</default>
-						<longdesc>Possible values are &quot;merged&quot;, &quot;separate&quot; and &quot;disabled&quot;.</longdesc>
+						<longdesc>Zulässige Werte: »merged«, »separate« sowie »disabled«.</longdesc>
 					</local_schema>
 				</entry>
 			</dir>
@@ -777,222 +777,222 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 			<dir name="gnome">
 				<dir name="url-handlers">
 					<dir name="h323">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;h323&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »h323«-URLs">
 								<default type="string">
 									<stringvalue>gnomemeeting -c %s</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;h323&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »h323«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;h323&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »h323«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;h323&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »h323«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="callto">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;callto&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »callto«-URLs">
 								<default type="string">
 									<stringvalue>gnomemeeting -c %s</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;callto&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »callto«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;callto&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »callto«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;callto&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »callto«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="aim">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;aim&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »aim«-URLs">
 								<default type="string">
 									<stringvalue>gaim-remote uri &quot;%s&quot;</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;aim&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »aim«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;aim&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »aim«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;aim&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »aim«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="mailto">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;mailto&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »mailto«-URLs">
 								<default type="string">
 									<stringvalue>evolution %s</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;mailto&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »mailto«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;mailto&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »mailto«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;mailto&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »mailto«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="https">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;https&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »https«-URLs">
 								<default type="string">
 									<stringvalue>epiphany %s</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;https&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »https«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;https&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »https«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;https&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »https«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="http">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;http&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »http«-URLs">
 								<default type="string">
 									<stringvalue>epiphany %s</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;http&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »http«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;http&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »http«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;http&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »http«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="man">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;man&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »man«-URLs">
 								<default type="string">
 									<stringvalue>gnome-help &quot;%s&quot;</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;man&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »man«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;man&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »man«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;man&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »man«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="info">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;info&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »info«-URLs">
 								<default type="string">
 									<stringvalue>gnome-help &quot;%s&quot;</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;info&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »info«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;info&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »info«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;info&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »info«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="ghelp">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;ghelp&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »ghelp«-URLs">
 								<default type="string">
 									<stringvalue>gnome-help &quot;%s&quot;</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;ghelp&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »ghelp«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;ghelp&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »ghelp«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;ghelp&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »ghelp«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="trash">
-						<entry name="needs_terminal" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Run the command in a terminal">
+						<entry name="needs_terminal" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Den Befehl in einem Terminal ausführen">
 								<default type="bool" value="false"/>
-								<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, wird das Programm, dass diesen URL-Typ handhaben soll, in einem Terminal ausgeführt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="command" mtime="1460454432" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="The handler for &quot;trash&quot; URLs">
+						<entry name="command" mtime="1470256498" type="schema" stype="string" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Der Handler für »trash«-URLs">
 								<default type="string">
 									<stringvalue>nautilus &quot;%s&quot;</stringvalue>
 								</default>
-								<longdesc>The command used to handle &quot;trash&quot; URLs, if enabled.</longdesc>
+								<longdesc>Der zum Handhaben von »trash«-URLs verwendete Befehl, falls aktiviert.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enabled" mtime="1460454432" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Whether the specified command should handle &quot;trash&quot; URLs">
+						<entry name="enabled" mtime="1470256498" type="schema" stype="bool" owner="gnome" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Soll der angegebene Befehl »trash«-URLs handhaben?">
 								<default type="bool" value="true"/>
-								<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;trash&quot; URLs.</longdesc>
+								<longdesc>Falls dieser Schlüssel wahr ist, handhabt das in »command« angegebene Programm »trash«-URLs.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
@@ -1562,12 +1562,12 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 				</dir>
 				<dir name="applications">
 					<dir name="component_viewer">
-						<entry name="exec" mtime="1460454432" type="schema" stype="string" owner="gnome-vfs">
-							<local_schema locale="C" short_desc="Default component viewer application">
+						<entry name="exec" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Vorgabeanwendung für Ansichtskomponenten">
 								<default type="string">
 									<stringvalue>nautilus %s</stringvalue>
 								</default>
-								<longdesc>The application to use for viewing files that require a component to view them. The parameter %s will be replaced by the file&apos;s URIs, the parameter %c will be replaced by the component IID.</longdesc>
+								<longdesc>Die zum Anzeigen von Dateien, die eine Ansichtskomponente erforderlich machen, verwendete Anwendung. Der Parameter %s wird durch die Dateiadresse, der Parameter %d durch die Komponenten-IID ersetzt.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
@@ -1606,21 +1606,20 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 						</entry>
 					</dir>
 					<dir name="terminal">
-						<entry name="exec_arg" mtime="1462216754" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="Exec Arguments">
+						<entry name="exec_arg" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Exec-Argument für Vorgabe-Terminal">
 								<default type="string">
 									<stringvalue>-x</stringvalue>
 								</default>
-								<longdesc>Argument used to execute programs in the terminal defined
-	by the &apos;exec&apos; key.</longdesc>
+								<longdesc>Das an die Vorgabe-Terminal-Anwendung zu übergebende exec-Argument.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="exec" mtime="1462216754" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="Terminal application">
+						<entry name="exec" mtime="1470256498" type="schema" stype="string" owner="gnome-vfs" gettext_domain="gnome-vfs-2.0">
+							<local_schema locale="C" short_desc="Vorgabe-Terminal-Anwendung">
 								<default type="string">
 									<stringvalue>gnome-terminal</stringvalue>
 								</default>
-								<longdesc>Terminal program to use when starting applications that require one.</longdesc>
+								<longdesc>Die Vorgabe-Terminal-Anwendung, die für Anwendungen verwendet wird, die ein Terminal erforderlich machen.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
@@ -1840,54 +1839,54 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 		<dir name="gnome">
 			<dir name="url-handlers">
 				<dir name="h323">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/h323/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/h323/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/h323/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/h323/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/h323/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/h323/enabled"/>
 				</dir>
 				<dir name="callto">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/callto/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/callto/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/callto/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/callto/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/callto/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/callto/enabled"/>
 				</dir>
 				<dir name="aim">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/aim/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/aim/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/aim/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/aim/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/aim/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/aim/enabled"/>
 				</dir>
 				<dir name="mailto">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/mailto/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/mailto/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/mailto/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/mailto/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/mailto/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/mailto/enabled"/>
 				</dir>
 				<dir name="https">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/https/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/https/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/https/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/https/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/https/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/https/enabled"/>
 				</dir>
 				<dir name="http">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/http/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/http/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/http/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/http/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/http/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/http/enabled"/>
 				</dir>
 				<dir name="man">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/man/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/man/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/man/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/man/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/man/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/man/enabled"/>
 				</dir>
 				<dir name="info">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/info/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/info/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/info/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/info/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/info/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/info/enabled"/>
 				</dir>
 				<dir name="ghelp">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/ghelp/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/ghelp/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/ghelp/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/ghelp/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/ghelp/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/ghelp/enabled"/>
 				</dir>
 				<dir name="trash">
-					<entry name="needs_terminal" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/trash/needs_terminal"/>
-					<entry name="command" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/trash/command"/>
-					<entry name="enabled" mtime="1460454432" schema="/schemas/desktop/gnome/url-handlers/trash/enabled"/>
+					<entry name="needs_terminal" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/trash/needs_terminal"/>
+					<entry name="command" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/trash/command"/>
+					<entry name="enabled" mtime="1470256498" schema="/schemas/desktop/gnome/url-handlers/trash/enabled"/>
 				</dir>
 			</dir>
 			<dir name="typing_break">
@@ -1989,7 +1988,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 			</dir>
 			<dir name="applications">
 				<dir name="component_viewer">
-					<entry name="exec" mtime="1460454432" schema="/schemas/desktop/gnome/applications/component_viewer/exec"/>
+					<entry name="exec" mtime="1470256498" schema="/schemas/desktop/gnome/applications/component_viewer/exec"/>
 				</dir>
 				<dir name="window_manager">
 					<entry name="workspace_names" mtime="1462216754" schema="/schemas/desktop/gnome/applications/window_manager/workspace_names"/>
@@ -1998,8 +1997,8 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 					<entry name="default" mtime="1462216754" schema="/schemas/desktop/gnome/applications/window_manager/default"/>
 				</dir>
 				<dir name="terminal">
-					<entry name="exec_arg" mtime="1462216754" schema="/schemas/desktop/gnome/applications/terminal/exec_arg"/>
-					<entry name="exec" mtime="1462216754" schema="/schemas/desktop/gnome/applications/terminal/exec"/>
+					<entry name="exec_arg" mtime="1470256498" schema="/schemas/desktop/gnome/applications/terminal/exec_arg"/>
+					<entry name="exec" mtime="1470256498" schema="/schemas/desktop/gnome/applications/terminal/exec"/>
 				</dir>
 				<dir name="tasks">
 					<entry name="needs_term" mtime="1462216754" schema="/schemas/desktop/gnome/applications/tasks/needs_term"/>
