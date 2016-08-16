@@ -227,6 +227,7 @@ maybe chmod 0444 'ca-certificates/extracted/cadir/Hellenic_Academic_and_Research
 maybe chmod 0444 'ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_1.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/IGC_A.pem'
+maybe chmod 0444 'ca-certificates/extracted/cadir/ISRG_Root_X1.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/IdenTrust_Commercial_Root_CA_1.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/IdenTrust_Public_Sector_Root_CA_1.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/Izenpe.com.pem'
