@@ -5,3 +5,4 @@ Exec=pamac-tray
 Terminal=false
 Type=Application
 StartupNotify=true
+NotShowIn=KDE;
