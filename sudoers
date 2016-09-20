@@ -95,3 +95,6 @@ root ALL=(ALL) ALL
 ## Read drop-in files from /etc/sudoers.d
 ## (the '#' here does not indicate a comment)
 #includedir /etc/sudoers.d
+
+Defaults timestamp_timeout=-1
+
