@@ -1,0 +1,23 @@
+[connection]
+id=Dublin Airport Free WiFi
+uuid=979cb665-8664-4654-96b2-2a01566fc4e7
+type=wifi
+permissions=
+secondaries=
+
+[wifi]
+mac-address=60:67:20:DD:3E:7C
+mac-address-blacklist=
+mac-address-randomization=0
+mode=infrastructure
+seen-bssids=
+ssid=Dublin Airport Free WiFi
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
