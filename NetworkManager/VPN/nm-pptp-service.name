@@ -1,3 +1,5 @@
+# This file is obsoleted by a file in /usr/lib/NetworkManager/VPN
+
 [VPN Connection]
 name=pptp
 service=org.freedesktop.NetworkManager.pptp
