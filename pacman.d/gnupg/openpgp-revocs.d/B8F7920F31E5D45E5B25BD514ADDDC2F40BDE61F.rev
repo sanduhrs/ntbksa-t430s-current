@@ -1,8 +1,8 @@
 This is a revocation certificate for the OpenPGP key:
 
-pub  rsa2048/226834D0 2016-04-12
-      Key fingerprint = 9B4F F40D AB1C D269 A5A7  6FD1 513F ABA6 2268 34D0
-uid                  Pacman Keyring Master Key <pacman@localhost>
+pub   rsa2048 2016-10-28 [S]
+      B8F7920F31E5D45E5B25BD514ADDDC2F40BDE61F
+uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
 declare that a key shall not anymore be used.  It is not possible
@@ -19,15 +19,14 @@ before the 5 dashes below.  Remove this colon with a text editor
 before importing and publishing this revocation certificate.
 
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG v2
 Comment: This is a revocation certificate
 
-iQEfBCABCAAJBQJXDMF0Ah0AAAoJEFE/q6YiaDTQKIQH+wXqWiT+DOdMJ0Z0SZTB
-6uSVRq/CKynSz0Ptzuu80pIKcJtjBIfpgs+wCTXmMmduzzO+FK9xb+Tq0Wcp2BFU
-fnWTtdqecGzJ+ZCTuUNe9BCwedRrdz3DFm+GAPBswQiOhE/Rl3/rmj2kswM6DqJB
-oWqc4rJjQUKqyFsMAe3DnKX0ufggoKjyrbrKmtJFBVt6qqVoE01P/tr/fe/NzYKj
-pDGCT+07QjQlnHtdNc0giSNsaqPHDPMljhyUcEXnzrLZXeFkHZ7P1Smb62jToOWY
-3/SMPh9Gg1LjCSgSvtMBMz1D00kBUZPl29tG84nMk3PY3kSJ8to9Fc6T5yzNd+lp
-/4I=
-=Qmh7
+iQEfBCABCAAJBQJYEx37Ah0AAAoJEErd3C9AveYfq/wIAJLHSfGIlCYErEoeRjmS
+CO3aa6blEgBxA8e2EpZ97ide2o9CQlIfpHz8k1Nl+FAL532zDi8t2kvcV8CbUro6
+fqHNQi2qeza1srlnE6HJu5l/+tO1EBWF/kwFrNC+lBt8+/kgQ/0lY3+NYsv2RGsl
+PcSbtKPzXW1q7e3n6XWRceVOnYbhxNl+MAL2L2y4wUKwYZBPiJ/d3szGm8bcEh+Z
+NQxLXONpmk042W862394QdE5Fe3x+zPRYOOClH9jMlm/EtFlTeAqEbRQ0P8guBwk
+181ukUtswr2S/isWeeFkuyo9R4f+C5QH/WNl9Hh6uKZ1BK4xM4YDCrHmb9vtSxZX
+iPw=
+=WepU
 -----END PGP PUBLIC KEY BLOCK-----
