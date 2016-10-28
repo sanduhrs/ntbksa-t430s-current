@@ -18,5 +18,4 @@ description=DXX-Rebirth, a source port of Descent, connected through YANG
 ports=42424/udp
 categories=Games;Action;
 reference=[http://www.multi-players-zone.com/descent.htm YANG: Descent Multiplayer Play]
-reference=[http://yang-online.com/portforwarding.htm YANG: Port Forwarding Guide]
 

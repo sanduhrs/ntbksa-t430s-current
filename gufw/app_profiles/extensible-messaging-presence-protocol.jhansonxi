@@ -18,7 +18,6 @@ description=Extensible Messaging and Presence Protocol server-server connection
 ports=5269/tcp
 categories=Network;Telephony;Instant Messaging;
 reference=[http://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Ports_1024_to_49151 Wikipedia: List of TCP and UDP port numbers]
-reference=[http://tools.ietf.org/html/rfc3920#section-15.9 RFC 3920: Section 15.9. Port Numbers]
 
 [XMPP serverless]
 title=XMPP Serverless
@@ -26,5 +25,4 @@ description=Extensible Messaging and Presence Protocol link-local messaging/serv
 ports=5298
 categories=Network;Telephony;Instant Messaging;
 reference=[http://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Ports_1024_to_49151 Wikipedia: List of TCP and UDP port numbers]
-reference=[http://xmpp.org/extensions/xep-0174.html XEP-0174: Serverless Messaging]
 

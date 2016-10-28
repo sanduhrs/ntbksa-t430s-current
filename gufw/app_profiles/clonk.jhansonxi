@@ -4,7 +4,6 @@ description=An action/RTS/platform game by RedWolf Design; standard ports
 ports=11113/udp;11112/tcp
 categories=Games;Action;
 reference=[http://de.wiki.nosebud.de/wiki/FAQ Clonk Wiki FAQ (Deutsch)]
-reference=[http://www.clonk.de/forum/en/topic_show.pl?pid=11780;hl=udp clonk.de forum - Which ports are used?]
 
 [Clonk host]
 title=Clonk Host
@@ -12,7 +11,6 @@ description=An action/RTS/platform game by RedWolf Design; host ports
 ports=11111/tcp
 categories=Games;Action;
 reference=[http://de.wiki.nosebud.de/wiki/FAQ Clonk Wiki FAQ (Deutsch)]
-reference=[http://www.clonk.de/forum/en/topic_show.pl?pid=11780;hl=udp clonk.de forum - Which ports are used?]
 
 [Clonk LAN discovery]
 title=Clonk LAN
@@ -20,5 +18,4 @@ description=An action/RTS/platform game by RedWolf Design; LAN game discovery po
 ports=11114/udp
 categories=Games;Action;
 reference=[http://de.wiki.nosebud.de/wiki/FAQ Clonk Wiki FAQ (Deutsch)]
-reference=[http://www.clonk.de/forum/en/topic_show.pl?pid=11780;hl=udp clonk.de forum - Which ports are used?]
 

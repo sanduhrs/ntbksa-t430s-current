@@ -4,7 +4,6 @@ description=Windows Messenger/Windows Live Messenger application sharing and whi
 ports=1503/tcp
 categories=Network;
 reference=[http://technet.microsoft.com/en-us/library/bb457095.aspx Windows Messenger in Windows XP: Working With Firewalls and Network Address Translation Devices]
-reference=[http://support.microsoft.com/kb/927847 Network ports and URLs that are used by Windows Live Messenger]
 
 [Windows Messenger FT]
 title=Windows Messenger File
@@ -12,7 +11,6 @@ description=Windows Messenger/MSN Messenger file transfer
 ports=6891:6900/tcp
 categories=Network;File Transfer;
 reference=[http://technet.microsoft.com/en-us/library/bb457095.aspx Windows Messenger in Windows XP: Working With Firewalls and Network Address Translation Devices]
-reference=[http://support.microsoft.com/kb/927847 Network ports and URLs that are used by Windows Live Messenger]
 
 [Windows Messenger RA]
 title=Windows Messenger Assistance

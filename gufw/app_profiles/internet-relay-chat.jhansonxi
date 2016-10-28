@@ -12,7 +12,6 @@ ports=6667/tcp
 modules=nf_conntrack_irc;nf_nat_irc;
 categories=Network;IRC;
 reference=[http://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Ports_1024_to_49151 Wikipedia: List of TCP and UDP port numbers]
-reference=[http://lxr.free-electrons.com/source/include/linux/netfilter/nf_conntrack_irc.h Free Electrons: Linux Cross Reference - nf_conntrack_irc.h]
 
 [IRC SSL]
 title=IRC SSL

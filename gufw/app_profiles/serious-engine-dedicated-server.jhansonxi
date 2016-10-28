@@ -4,7 +4,6 @@ description=Dedicated server for the FPS by Croteam
 ports=27016
 categories=Games;Action;
 reference=[http://forums.steamgames.com/forums/showthread.php?t=1248110 Steam Forums: Serious Sam HD series - Solutions to common problems]
-reference=[http://icculus.org/lgfaq/en/network.php Icculous.org: Networking Queries]
 
 [SEDS default admin port]
 title=SEDS Remote Admin
@@ -19,7 +18,6 @@ description=Dedicated server for the FPS by Croteam, alternate game port 25601
 ports=25601
 categories=Games;Action;
 reference=[http://forums.steamgames.com/forums/showthread.php?t=1248110 Steam Forums: Serious Sam HD series - Solutions to common problems]
-reference=[http://icculus.org/lgfaq/en/network.php Icculous.org: Networking Queries]
 
 [SEDS alternate admin port]
 title=SEDS Admin - port 25600

@@ -5,7 +5,6 @@ ports=5060/tcp
 categories=Network;Telephony;
 modules=nf_conntrack_sip;nf_nat_sip;
 reference=[http://en.wikipedia.org/wiki/Session_Initiation_Protocol Wikipedia: Session Initiation Protocol]
-reference=[http://wiki.freeswitch.org/wiki/Firewall FreeSWITCH Wiki: Firewall]
 
 [SIP TLS]
 title=SIP TLS

@@ -11,5 +11,4 @@ description=GameSpy Arcade gaming network
 ports=6500,6515,13139,27900/udp|3783,28900,29900,29901/tcp
 categories=Games;
 reference=[http://www.gamespyarcade.com/support/firewalls.shtml GameSpy Arcade Support: Firewalls]
-reference=[http://support.microsoft.com/kb/925896 Microsoft: Flight Simulator X multiplayer game]
 

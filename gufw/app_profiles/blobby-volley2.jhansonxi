@@ -4,5 +4,4 @@ description=A volleyball game
 ports=1234/udp
 categories=Games;Sports;
 reference=[http://blobby.svn.sourceforge.net/viewvc/blobby/trunk/README Blobby SVN: README]
-reference=netstat -nap|grep blobby
 

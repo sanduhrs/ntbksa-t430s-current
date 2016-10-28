@@ -32,4 +32,3 @@ description=A fighting game based on the physics sandbox model with customizable
 ports=20180:20190
 categories=Games;Action;
 reference=[http://forum.toribash.com/showthread.php?t=6667 Toribash Community: A sophisicated guide to setting up a highly customizable server]
-reference=[http://forum.toribash.com/showthread.php?t=667 Toribash Community: Connection Issues with Fedora 5 and tbd server]
