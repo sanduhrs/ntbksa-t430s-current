@@ -1391,6 +1391,7 @@ puprouter         999/tcp
 puprouter         999/udp
 cadlock2         1000/tcp
 cadlock2         1000/udp
+webpush          1001/tcp
 surf             1010/tcp
 surf             1010/udp
 exp1             1021/tcp
@@ -8056,6 +8057,9 @@ snap             4752/tcp
 snap             4752/udp
 simon            4753/tcp
 simon-disc       4753/udp
+gre-in-udp       4754/udp
+gre-udp-dtls     4755/udp
+RDCenter         4756/tcp
 converge         4774/tcp
 bfd-multi-ctl    4784/tcp
 bfd-multi-ctl    4784/udp
@@ -10060,6 +10064,8 @@ swa-4            9026/tcp
 swa-4            9026/udp
 versiera         9050/tcp
 fio-cmgmt        9051/tcp
+CardWeb-IO       9060/tcp
+CardWeb-RT       9060/udp
 glrpc            9080/tcp
 glrpc            9080/udp
 lcs-ap           9082/sctp
@@ -10647,6 +10653,7 @@ cps             14250/tcp
 cps             14250/udp
 ca-web-update   14414/tcp
 ca-web-update   14414/udp
+xpra            14500/tcp
 hde-lcesrvr-1   14936/tcp
 hde-lcesrvr-1   14936/udp
 hde-lcesrvr-2   14937/tcp
@@ -10773,6 +10780,8 @@ rds-ib          18634/tcp
 rds-ib          18634/udp
 rds-ip          18635/tcp
 rds-ip          18635/udp
+vdmmesh         18668/tcp
+vdmmesh-disc    18668/udp
 ique            18769/tcp
 ique            18769/udp
 infotos         18881/tcp
@@ -11142,6 +11151,7 @@ p-net-local     34378/udp
 p-net-remote    34379/tcp
 p-net-remote    34379/udp
 dhanalakshmi    34567/tcp
+edi_service     34567/udp
 profinet-rt     34962/tcp
 profinet-rt     34962/udp
 profinet-rtm    34963/tcp
