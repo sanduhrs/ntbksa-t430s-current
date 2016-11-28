@@ -6,8 +6,10 @@ permissions=
 secondaries=
 
 [wifi]
+cloned-mac-address=permanent
 mac-address=60:67:20:DD:3E:7C
 mac-address-blacklist=
+mac-address-randomization=1
 mode=infrastructure
 seen-bssids=
 ssid=Hofnetz
@@ -25,5 +27,6 @@ dns-search=
 method=auto
 
 [ipv6]
+addr-gen-mode=eui64
 dns-search=
 method=auto
