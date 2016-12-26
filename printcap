@@ -2,3 +2,4 @@
 # /etc/cups/printers.conf file.  All changes to this file
 # will be lost.
 HP-Color-LaserJet-MFP-M477fdw|HP Color LaserJet MFP M477fdw:rm=ntbksa-t430s:rp=HP-Color-LaserJet-MFP-M477fdw:
+Samsung-ML-1630-Series|Samsung ML-1630 Series:rm=ntbksa-t430s:rp=Samsung-ML-1630-Series:
