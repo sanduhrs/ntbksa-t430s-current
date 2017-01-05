@@ -64,4 +64,5 @@ vboxusers:!!::
 nm-openconnect:!::
 seafile:!::
 nullmail:!::
-sdkusers:!::
+sdkusers:!::sauditor
+smsd:!::

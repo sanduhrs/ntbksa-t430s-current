@@ -11,7 +11,7 @@ kmem:x:9:
 wheel:x:10:root,sauditor
 ftp:x:11:
 mail:x:12:
-uucp:x:14:
+uucp:x:14:smsd
 log:x:19:root
 utmp:x:20:
 locate:x:21:
@@ -65,3 +65,4 @@ nm-openconnect:x:615:
 seafile:x:614:
 nullmail:x:613:
 sdkusers:x:1001:sauditor
+smsd:x:1002:
