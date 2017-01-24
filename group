@@ -66,3 +66,4 @@ seafile:x:614:
 nullmail:x:613:
 sdkusers:x:1001:sauditor
 smsd:x:1002:
+usbmux:x:140:

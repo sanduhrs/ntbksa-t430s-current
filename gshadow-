@@ -11,7 +11,7 @@ kmem:::
 wheel:::root,sauditor
 ftp:::
 mail:::
-uucp:::
+uucp:::smsd
 log:::root
 utmp:x::
 locate:::
