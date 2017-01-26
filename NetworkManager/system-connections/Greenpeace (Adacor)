@@ -4,24 +4,25 @@ uuid=81d21bd7-e4a2-4716-af6a-64689f8d4320
 type=vpn
 permissions=
 secondaries=
+timestamp=1477928426
 
 [vpn]
-connection-type=password-tls
 auth=MD5
-password-flags=1
-remote=fwcluster01.acc.adacor.net
+ca=/home/sauditor/.ssh/Adacor/configs/efw_sauditor@fwcluster01.acc.adacor.net/efw_sauditor.p12
+cert=/home/sauditor/.ssh/Adacor/configs/efw_sauditor@fwcluster01.acc.adacor.net/efw_sauditor.p12
+cert-pass-flags=1
 cipher=AES-128-CBC
 comp-lzo=yes
-cert-pass-flags=1
-reneg-seconds=0
-proto-tcp=yes
-port=443
-username=efw_sauditor
-cert=/home/sauditor/.ssh/Adacor/configs/efw_sauditor@fwcluster01.acc.adacor.net/efw_sauditor.p12
-ca=/home/sauditor/.ssh/Adacor/configs/efw_sauditor@fwcluster01.acc.adacor.net/efw_sauditor.p12
-key=/home/sauditor/.ssh/Adacor/configs/efw_sauditor@fwcluster01.acc.adacor.net/efw_sauditor.p12
-tls-remote=/C=de/L=Frankfurt_am_Main/O=ADACOR_Hosting_GmbH/CN=fwcluster01.acc.adacor.net/emailAddress=technik@adacor.net
+connection-type=password-tls
 dev=tun
+dev-type=tun
+key=/home/sauditor/.ssh/Adacor/configs/efw_sauditor@fwcluster01.acc.adacor.net/efw_sauditor.p12
+password-flags=1
+port=443
+proto-tcp=yes
+remote=fwcluster01.acc.adacor.net
+reneg-seconds=0
+username=efw_sauditor
 service-type=org.freedesktop.NetworkManager.openvpn
 
 [ipv4]
@@ -30,6 +31,7 @@ method=auto
 never-default=true
 
 [ipv6]
+addr-gen-mode=eui64
 dns-search=
 method=auto
 never-default=true
