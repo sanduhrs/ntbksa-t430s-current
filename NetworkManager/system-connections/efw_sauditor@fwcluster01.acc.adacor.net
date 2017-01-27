@@ -1,10 +1,10 @@
 [connection]
-id=Greenpeace (Adacor)
-uuid=81d21bd7-e4a2-4716-af6a-64689f8d4320
+id=efw_sauditor@fwcluster01.acc.adacor.net
+uuid=9d78d9d5-46ab-40d2-8172-4247bf74cbfc
 type=vpn
 permissions=
 secondaries=
-timestamp=1477928426
+timestamp=1485506832
 
 [vpn]
 auth=MD5
@@ -18,11 +18,11 @@ dev=tun
 dev-type=tun
 key=/home/sauditor/.ssh/Adacor/configs/efw_sauditor@fwcluster01.acc.adacor.net/efw_sauditor.p12
 password-flags=1
-port=443
 proto-tcp=yes
-remote=fwcluster01.acc.adacor.net
+remote=fwcluster01.acc.adacor.net:443
 reneg-seconds=0
 username=efw_sauditor
+verify-x509-name=subject:C=de, L=Frankfurt am Main, O=ADACOR Hosting GmbH, CN=fwcluster01.acc.adacor.net, emailAddress=technik@adacor.net
 service-type=org.freedesktop.NetworkManager.openvpn
 
 [ipv4]
@@ -31,7 +31,7 @@ method=auto
 never-default=true
 
 [ipv6]
-addr-gen-mode=eui64
+addr-gen-mode=stable-privacy
 dns-search=
 method=auto
 never-default=true
