@@ -1,10 +1,10 @@
 [connection]
-id=efw_sauditor@fwcluster01.acc.adacor.net
+id=Greenpeace (Adacor)
 uuid=9d78d9d5-46ab-40d2-8172-4247bf74cbfc
 type=vpn
 permissions=
 secondaries=
-timestamp=1485506832
+timestamp=1485527851
 
 [vpn]
 auth=MD5
