@@ -4,17 +4,17 @@
 		<dir name="gstreamer">
 			<dir name="0.10">
 				<dir name="default">
-					<entry name="visualization" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/visualization"/>
-					<entry name="videosrc" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/videosrc"/>
-					<entry name="audiosrc_description" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/audiosrc_description"/>
-					<entry name="audiosrc" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/audiosrc"/>
-					<entry name="videosink" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/videosink"/>
-					<entry name="chataudiosink_description" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/chataudiosink_description"/>
-					<entry name="chataudiosink" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/chataudiosink"/>
-					<entry name="musicaudiosink_description" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/musicaudiosink_description"/>
-					<entry name="musicaudiosink" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/musicaudiosink"/>
-					<entry name="audiosink_description" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/audiosink_description"/>
-					<entry name="audiosink" mtime="1470635184" schema="/schemas/system/gstreamer/0.10/default/audiosink"/>
+					<entry name="visualization" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/visualization"/>
+					<entry name="videosrc" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/videosrc"/>
+					<entry name="audiosrc_description" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/audiosrc_description"/>
+					<entry name="audiosrc" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/audiosrc"/>
+					<entry name="videosink" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/videosink"/>
+					<entry name="chataudiosink_description" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/chataudiosink_description"/>
+					<entry name="chataudiosink" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/chataudiosink"/>
+					<entry name="musicaudiosink_description" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/musicaudiosink_description"/>
+					<entry name="musicaudiosink" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/musicaudiosink"/>
+					<entry name="audiosink_description" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/audiosink_description"/>
+					<entry name="audiosink" mtime="1485871875" schema="/schemas/system/gstreamer/0.10/default/audiosink"/>
 				</dir>
 			</dir>
 		</dir>
@@ -50,7 +50,7 @@
 			<dir name="nautilus-actions">
 				<dir name="mandatory">
 					<dir name="na-desktop">
-						<entry name="locked" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+						<entry name="locked" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 							<local_schema locale="C" short_desc="Legt fest, ob der Ein-/Ausgabetreiber des Desktops gesperrt ist.">
 								<default type="bool" value="false"/>
 								<longdesc>Wenn auf »wahr« gesetzt (höchstwahrscheinlich als obligatorischer Schlüssel), verhindert dies die Änderung aller aus *.desktop-Dateien gelesenen Objekte, Menüs und Aktionen durch Nautilus-Aktionen.</longdesc>
@@ -58,7 +58,7 @@
 						</entry>
 					</dir>
 					<dir name="na-gconf">
-						<entry name="locked" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+						<entry name="locked" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 							<local_schema locale="C" short_desc="Legt fest, ob der Ein-/Ausgabetreiber von GConf gesperrt ist.">
 								<default type="bool" value="false"/>
 								<longdesc>Wenn auf »wahr« gesetzt (höchstwahrscheinlich als obligatorischer Schlüssel), verhindert dies die Änderung aller von GConf gelesenen Objekte, Menüs und Aktionen durch Nautilus-Aktionen.</longdesc>
@@ -66,7 +66,7 @@
 						</entry>
 					</dir>
 					<dir name="all">
-						<entry name="locked" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+						<entry name="locked" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 							<local_schema locale="C" short_desc="Legt fest, ob die gesamte Konfiguration gesperrt ist">
 								<default type="bool" value="false"/>
 								<longdesc>The whole configuration must be understood here as the global set and order of menus and actions.
@@ -77,7 +77,7 @@ As the order of items is also locked, the level zero itself cannot be modified, 
 					</dir>
 				</dir>
 				<dir name="preferences">
-					<entry name="schemes" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="schemes" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Liste vorgegebener Schemata">
 							<default type="list" ltype="string">
 							</default>
@@ -85,82 +85,82 @@ As the order of items is also locked, the level zero itself cannot be modified, 
 A default default list is hardcoded in nautilus-actions-config-tool, which may be updated by the user.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="preferences-editor" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="preferences-editor" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Einstellungsdialogs">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Einstellungsdialogs. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-window" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="main-window" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Hauptfensters">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Hauptfensters. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-tools-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-tools-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Werkzeuge-Werkzeugleiste anzeigen">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob die Werkzeuge-Werkzeugleiste im Hauptfenster angezeigt werden soll oder nicht.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-paned" mtime="1485160145" type="schema" stype="int" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-paned" mtime="1485160145" type="schema" stype="int" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Position der Hauptleiste">
 							<default type="int" value="100"/>
 							<longdesc>Breite der Seitenleiste des Hauptfensters; die Voreinstellung wird durch den UI-Manager vorgegeben</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-help-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-help-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Hilfe-Werkzeugleiste anzeigen">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob die Hilfe-Werkzeugleiste im Hauptfenster angezeigt werden soll oder nicht.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-file-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-file-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Datei-Werkzeugleiste anzeigen">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob die Datei-Werkzeugleiste im Hauptfenster angezeigt werden soll oder nicht.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="main-edit-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="main-edit-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Bearbeiten-Werkzeugleiste anzeigen">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob die Bearbeiten-Werkzeugleiste im Hauptfenster angezeigt werden soll oder nicht.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-relabel-profiles" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-relabel-profiles" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob Profile bei Einfügen oder Duplizieren neu benannt werden sollen">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob Profile bei Einfügen oder Duplizieren neu benannt werden sollen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-relabel-menus" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-relabel-menus" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob Menüs bei Einfügen oder Duplizieren neu benannt werden sollen">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob Menüs bei Einfügen oder Duplizieren neu benannt werden sollen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-relabel-actions" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-relabel-actions" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob Aktionen bei Einfügen oder Duplizieren neu benannt werden sollen">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob Aktionen bei Einfügen oder Duplizieren neu benannt werden sollen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-level-zero" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="iprefs-level-zero" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Liste der Einträge in der obersten Ebene der Hierarchie">
 							<default type="list" ltype="string">
 							</default>
 							<longdesc>UUID der Einträge in der obersten Ebene der Hierarchie. Falls der Schlüssel nicht gefunden wurde oder leer ist, dann werden alle Objekte als Liste in einer einzigen Ebene angenommen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-create-root-menu" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-create-root-menu" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Ein Basismenü für »Nautilus-Aktionen« definieren">
 							<default type="bool" value="true"/>
 							<longdesc>Falls »WAHR«, so wird ein Menüeintrag »Nautilus-Aktionen« im Kontextmenü von Nautilus eingefügt, welcher das Basismenü aller verfügbaren Aktionen ist.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-alphabetical-order" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-alphabetical-order" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Sortierreihenfolge">
 							<default type="string">
 								<stringvalue>0</stringvalue>
@@ -171,20 +171,20 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 - &quot;ManualOrder&quot;: user is free to reorder them via Nautilus-Actions configuration tool.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="iprefs-add-about-item" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="iprefs-add-about-item" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="»Info«-Eintrag zum Kontextmenü von Nautilus hinzufügen">
 							<default type="bool" value="true"/>
 							<longdesc>Falls »WAHR«, und falls der Benutzer ein einziges Basismenü für diese Aktionen definiert hat, dann wird »Info zu Nautilus-Aktionen« am Ende des ersten Untermenüs angezeigt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="io-providers-order" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="io-providers-order" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Schreibpriorität der Ein-/Ausgabetreiber">
 							<default type="list" ltype="string">
 							</default>
 							<longdesc>Die Reihenfolge der Ein-/Ausgabetreiber, die angewendet wird, wenn ein neuer Eintrag in ein Speicher-Subsystem geschrieben werden soll.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-mode" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="import-mode" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Importmodus">
 							<default type="string">
 								<stringvalue>NoImport</stringvalue>
@@ -196,13 +196,13 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 - &quot;Ask&quot;: ask the user each time.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-keep-choicee" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="import-keep-choicee" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählten Importmodus merken">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob das Importsystem den zuletzt gewählten Importmodus merken und erneut anwenden soll.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-folder-uri" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="import-folder-uri" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählter Ordner">
 							<default type="string">
 								<stringvalue>/tmp</stringvalue>
@@ -210,14 +210,14 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 							<longdesc>Zuletzt ausgewählter Ordner zum Import neuer Aktionen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-assistant" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="import-assistant" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Fensters des Importassistenten">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Fensters des Importassistenten. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-ask-user-last-mode" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="import-ask-user-last-mode" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Letzter vom Benutzer gewählter Importmodus">
 							<default type="string">
 								<stringvalue>NoImport</stringvalue>
@@ -228,14 +228,14 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 - &quot;Override&quot;: override the existing action with the imported one.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="import-ask-user" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="import-ask-user" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des interaktiven Dialogs für den Import">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des interaktiven Dialogs für den Import. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="ifolders-uri" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="ifolders-uri" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählter Ordner">
 							<default type="string">
 								<stringvalue>/bin</stringvalue>
@@ -243,21 +243,21 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 							<longdesc>Der zuletzt gewählte Ordner beim Durchsuchen nach einer Adresse im Karteireiter »Ordner«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="ifolders-chooser" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="ifolders-chooser" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Fensters mit dem Adresswähler">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position and size of the URI  chooser window in the Folders tab ; default is set by the window manager.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icommand-legend-dialog" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="icommand-legend-dialog" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Dialogs mit der Legende">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Dialogs mit der Legende; die Voreinstellung wird durch den UI-Manager vorgegeben.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icommand-folder-uri" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="icommand-folder-uri" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählter Ordner">
 							<default type="string">
 								<stringvalue>/bin</stringvalue>
@@ -265,14 +265,14 @@ A default default list is hardcoded in nautilus-actions-config-tool, which may b
 							<longdesc>Der zuletzt gewählte Ordner beim Durchsuchen nach einem Befehl im Karteireiter »Befehl«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icommand-command-chooser" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="icommand-command-chooser" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Fensters mit dem Befehlswähler">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Fensters mit dem Befehlswähler im Reiter »Befehl«; die Voreinstellung wird durch die Fensterverwaltung vorgegeben.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="export-format" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="export-format" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Bevorzugtes Exportformat">
 							<default type="string">
 								<stringvalue>/tmp</stringvalue>
@@ -285,7 +285,7 @@ Possible values are:
 - &quot;Ask&quot;: the user will be asked at runtime for the format he wishes to use.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="export-folder-uri" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="export-folder-uri" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Zuletzt gewählter Ordner">
 							<default type="string">
 								<stringvalue>/tmp</stringvalue>
@@ -293,32 +293,32 @@ Possible values are:
 							<longdesc>Zuletzt ausgewählter Ordner zum Export der Aktionen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="export-assistant" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="int">
+					<entry name="export-assistant" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="int">
 						<local_schema locale="C" short_desc="Position und Größe des Fensters des Exportassistenten">
 							<default type="list" ltype="int">
 							</default>
 							<longdesc>Position und Größe des Fensters des Exportassistenten. Die Vorgabe wird von der Fensterverwaltung bestimmt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="auto-save-period" mtime="1485160145" type="schema" stype="int" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="auto-save-period" mtime="1485160145" type="schema" stype="int" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Wiederholung des automatischen Speicherns">
 							<default type="int" value="5"/>
 							<longdesc>Legt den Zeitabstand in Minuten für automatisches Speichern fest.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="auto-save-on" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="auto-save-on" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob das Funktionsmerkmal zum automatischen Speichern aktiviert werden soll">
 							<default type="bool" value="false"/>
 							<longdesc>Falls »WAHR«, werden ungespeicherte Änderungen regelmäßig und automatisch gespeichert.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="assistant-esc-quit" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="assistant-esc-quit" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Legt fest, ob mit der Esc-Taste Assistenten beendet werden können">
 							<default type="bool" value="true"/>
 							<longdesc>Falls »WAHR«, so kann der Assistent durch Drücken der Esc-Taste geschlossen werden.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="assistant-esc-confirm" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="assistant-esc-confirm" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Bestätigung beim Beenden mit Esc">
 							<default type="bool" value="true"/>
 							<longdesc>Falls »WAHR«, wird nach dem Beenden eines Assistenten durch Drücken der Esc-Taste um Bestätigung des Vorgangs gebeten.</longdesc>
@@ -326,7 +326,7 @@ Possible values are:
 					</entry>
 				</dir>
 				<dir name="configurations">
-					<entry name="folders" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="folders" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Liste von Ordnern">
 							<default type="list" ltype="string">
 								<li type="string">
@@ -339,7 +339,7 @@ This is only used when there is no selection, or the selection only contains dir
 Defaults to &apos;/&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="schemes" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="schemes" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Die Liste der Schemata, die auf die ausgewählten Datei(en) und Ordner zutreffen müssen">
 							<default type="list" ltype="string">
 								<li type="string">
@@ -361,7 +361,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;file&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="accept-multiple-files" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="accept-multiple-files" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Whether the selection may be multiple">
 							<default type="bool" value="false"/>
 							<longdesc>Wenn ein oder mehrere Dateien oder Ordner ausgewählt werden dürfen, dann setzen Sie diesen Schlüssel auf »wahr«. Andernfalls auf »falsch«.
@@ -369,7 +369,7 @@ Dies wirkt sich nur auf die Zielauswahl aus.
 Vorgabe ist »falsch«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="isdir" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="isdir" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Whether the profile applies to folders">
 							<default type="bool" value="false"/>
 							<longdesc>Set to &apos;true&apos; if the selection can have folders, to &apos;false&apos; otherwise.
@@ -382,7 +382,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;false&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="isfile" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="isfile" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Whether the profile applies to files">
 							<default type="bool" value="true"/>
 							<longdesc>Set to &apos;true&apos; if the selection can have files, to &apos;false&apos; otherwise.
@@ -395,7 +395,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;true&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="mimetypes" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="mimetypes" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Die Liste der Muster, die beim Filtern der ausgewählten Datei(en) oder Ordner nach dem MIME-Typen zutreffen müssen">
 							<default type="list" ltype="string">
 								<li type="string">
@@ -407,7 +407,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;*&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="matchcase" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="matchcase" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Ist gesetzt, falls für die angegebenen Basisnamen Groß-/Kleinschreibung berücksichtigt werden soll (Vorgabe)">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob beim Filtern nach Dateinamen Groß- und Kleinschreibung beachtet werden soll (»wahr«), andernfalls »falsch«. Falls Sie beispielsweise für einen Dateinamen Groß-/Kleinschreibung berücksichtigen wollen, setzen Sie diesen Schlüssel auf »wahr«. Falls Sie bei »*.jpg« auch »*.JPG« erfassen wollen, setzen Sie diesen Schlüssel auf »falsch«.
@@ -415,7 +415,7 @@ Dies wirkt sich nur auf die Zielauswahl aus, sofern eine Auswahl existiert.
 Vorgabe ist »wahr«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="basenames" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" gettext_domain="nautilus-actions" list_type="string">
+					<entry name="basenames" mtime="1485160145" type="schema" stype="list" owner="nautilus-actions" list_type="string">
 						<local_schema locale="C" short_desc="Die Liste der Muster, die auf die ausgewählten Datei(en) und Ordner zutreffen müssen">
 							<default type="list" ltype="string">
 								<li type="string">
@@ -427,7 +427,7 @@ This obviously only applies when there is a selection.
 Defaults to &apos;*&apos;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="parameters" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="parameters" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Befehlsparameter">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -447,7 +447,7 @@ The parameters may contain some special tokens which are replaced by the informa
 %%: a percent sign.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="path" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="path" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Pfad des Befehls">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -455,7 +455,7 @@ The parameters may contain some special tokens which are replaced by the informa
 							<longdesc>Der vollständige Dateisystempfad des auszuführenden Befehls, wenn der Benutzer auf den Eintrag im Nautilus-Kontextmenü oder in der Werkzeugleiste klickt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="toolbar-label" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="toolbar-label" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Beschriftung des Objektes in der Werkzeugleiste">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -465,14 +465,14 @@ Beachten Sie, dass die aktuelle Anzeige von Ihren GNOME-Einstellungen abhängt.
 Wenn nicht gesetzt, ist die Vorgabe die Bezeichnung des Kontextmenüs.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="target-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="target-toolbar" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Ziel-Werkzeugleiste">
 							<default type="bool" value="false"/>
 							<longdesc>Whether the action is candidate to be displayed in file manager toolbar.
 Note, that as of Nautilus 2.26, menus can not be candidate to toolbar display.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="target-selection" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="target-selection" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Targets the context menu (default)">
 							<default type="bool" value="true"/>
 							<longdesc>Whether the action of the menu targets the selection file manager context menus.
@@ -480,14 +480,14 @@ This used to be the historical behavior.
 Defaults to TRUE.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="enabled" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="enabled" mtime="1485160145" type="schema" stype="bool" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Whether the action or the menu is enabled (default)">
 							<default type="bool" value="true"/>
 							<longdesc>Falls die Aktion oder das Menü deaktiviert ist, erscheint sie niemals im Kontextmenü des Dateimanagers.
 Vorgabe ist »wahr«.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icon" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="icon" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Das Symbol des Kontextmenüeintrages">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -496,7 +496,7 @@ Vorgabe ist »wahr«.</longdesc>
 Das kann der übersetzte Name eines Symbols aus einem Thema sein oder ein vollständiger Pfad zu einem entsprechenden Bild.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="tooltip" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="tooltip" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Die Minihilfe des Kontextmenüeintrages">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -504,7 +504,7 @@ Das kann der übersetzte Name eines Symbols aus einem Thema sein oder ein vollst
 							<longdesc>Die Minihilfe für den Menüeintrag, die in der Nautilus-Statusleiste angezeigt wird, wenn der Benutzer mit der Maus über den Eintrag im Nautilus-Kontextmenü fährt.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="label" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions" gettext_domain="nautilus-actions">
+					<entry name="label" mtime="1485160145" type="schema" stype="string" owner="nautilus-actions">
 						<local_schema locale="C" short_desc="Die Bezeichnung des Kontextmenüeintrags (obligatorisch)">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -520,7 +520,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 			<dir name="gstreamer">
 				<dir name="0.10">
 					<dir name="default">
-						<entry name="visualization" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="visualization" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer visualization plugin">
 								<default type="string">
 									<stringvalue>goom</stringvalue>
@@ -528,7 +528,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>GStreamer can put visualization plugins in a pipeline to transform audio stream in video frames. Default is goom but more visualization plugins will be ported soon. The visualization plugin can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="videosrc" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="videosrc" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer video source">
 								<default type="string">
 									<stringvalue>v4l2src</stringvalue>
@@ -536,7 +536,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>GStreamer can record video from any number of input elements.  Some possible choices are v4lsrc and videotestsrc. The video source can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="audiosrc_description" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="audiosrc_description" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="description for default GStreamer audiosrc">
 								<default type="string">
 									<stringvalue>Default</stringvalue>
@@ -544,7 +544,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>Describes the selected input element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="audiosrc" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="audiosrc" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer audio source">
 								<default type="string">
 									<stringvalue>alsasrc</stringvalue>
@@ -552,7 +552,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>GStreamer can record audio using any number of input elements.  Some possible choices are osssrc, esdsrc and alsasrc.  The audio source can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="videosink" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="videosink" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer videosink">
 								<default type="string">
 									<stringvalue>autovideosink</stringvalue>
@@ -560,7 +560,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>GStreamer can play video using any number of output elements.  Some possible choices are xvimagesink, ximagesink, sdlvideosink and aasink.  The videosink can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="chataudiosink_description" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="chataudiosink_description" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="description for GStreamer audiosink for Audio/Video Conferencing">
 								<default type="string">
 									<stringvalue>Default</stringvalue>
@@ -568,7 +568,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>Describes the selected output element for Audio/Video Conferencing.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="chataudiosink" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="chataudiosink" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="GStreamer audiosink for Audio/Video Conferencing">
 								<default type="string">
 									<stringvalue>autoaudiosink</stringvalue>
@@ -576,7 +576,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>GStreamer can play audio using any number of output elements.  Some possible choices are osssink, esdsink and alsasink.  The audiosink can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="musicaudiosink_description" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="musicaudiosink_description" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="description for GStreamer audiosink for Music and Movies">
 								<default type="string">
 									<stringvalue>Default</stringvalue>
@@ -584,7 +584,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>Describes the selected output element for Music and Movies.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="musicaudiosink" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="musicaudiosink" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="GStreamer audiosink for Music and Movies">
 								<default type="string">
 									<stringvalue>autoaudiosink</stringvalue>
@@ -592,7 +592,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>GStreamer can play audio using any number of output elements.  Some possible choices are osssink, esdsink and alsasink.  The audiosink can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="audiosink_description" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="audiosink_description" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="description for default GStreamer audiosink">
 								<default type="string">
 									<stringvalue>Default</stringvalue>
@@ -600,7 +600,7 @@ Diese Beschriftung wird auch als Vorgabe für die Aktion in der Werkzeugleiste v
 								<longdesc>Describes the selected output element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="audiosink" mtime="1470635184" type="schema" stype="string" owner="gstreamer">
+						<entry name="audiosink" mtime="1485871875" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer audiosink">
 								<default type="string">
 									<stringvalue>autoaudiosink</stringvalue>
