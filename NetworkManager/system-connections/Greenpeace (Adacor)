@@ -4,7 +4,7 @@ uuid=9d78d9d5-46ab-40d2-8172-4247bf74cbfc
 type=vpn
 permissions=
 secondaries=
-timestamp=1485527851
+timestamp=1486491528
 
 [vpn]
 auth=MD5
