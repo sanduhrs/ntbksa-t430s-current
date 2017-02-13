@@ -34,3 +34,4 @@ nm-openconnect:x:615:615:NetworkManager OpenConnect:/:/usr/bin/nologin
 seafile:x:614:614::/srv/seafile:/usr/bin/nologin
 nullmail:x:613:613:nullmailer MTA:/var/nullmailer:/bin/sh
 smsd:x:1001:1002:SMS Gateway Daemon:/var/spool/sms:/sbin/nologin
+usbmux:x:140:140:usbmux user:/:/sbin/nologin
