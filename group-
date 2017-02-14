@@ -18,7 +18,7 @@ locate:x:21:
 rfkill:x:24:
 smmsp:x:25:
 proc:x:26:polkitd
-http:x:33:sauditor
+http:x:33:sauditor,radicale
 games:x:50:sauditor
 lock:x:54:
 uuidd:x:68:
@@ -67,4 +67,4 @@ nullmail:x:613:
 sdkusers:x:1001:sauditor
 smsd:x:1002:
 usbmux:x:140:
-radicale:x:612:
+radicale:x:612:radicale
