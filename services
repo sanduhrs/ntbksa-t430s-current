@@ -4080,6 +4080,7 @@ remographlm      2373/tcp
 hydra            2374/tcp
 docker           2375/tcp
 docker-s         2376/tcp
+swarm            2377/tcp
 etcd-client      2379/tcp
 etcd-server      2380/tcp
 compaq-https     2381/tcp
@@ -7633,6 +7634,8 @@ dsmipv6          4191/udp
 azeti            4192/tcp
 azeti-bd         4192/udp
 pvxplusio        4193/tcp
+hctl             4197/tcp
+hctl             4197/udp
 eims-admin       4199/tcp
 eims-admin       4199/udp
 corelccam        4300/tcp
@@ -8013,6 +8016,9 @@ netxms-sync      4702/tcp
 netxms-sync      4702/udp
 npqes-test       4703/tcp
 assuria-ins      4704/tcp
+trinity-dist     4711/tcp
+trinity-dist     4711/udp
+trinity-dist     4711/sctp
 truckstar        4725/tcp
 truckstar        4725/udp
 a26-fap-fgw      4726/udp
@@ -8046,6 +8052,7 @@ ifsp             4744/tcp
 ifsp             4744/udp
 fmp              4745/tcp
 fmp              4745/udp
+intelliadm-disc  4746/udp
 buschtrommel     4747/udp
 profilemac       4749/tcp
 profilemac       4749/udp
@@ -8667,6 +8674,7 @@ checkoutdb       5505/udp
 amc              5506/tcp
 amc              5506/udp
 psl-management   5507/tcp
+cbus             5550/tcp
 sgi-eventmond    5553/tcp
 sgi-eventmond    5553/udp
 sgi-esphttp      5554/tcp
@@ -9221,6 +9229,8 @@ nexgen           6627/tcp
 nexgen           6627/udp
 afesc-mc         6628/tcp
 afesc-mc         6628/udp
+nexgen-aux       6629/tcp
+nexgen-aux       6629/udp
 mxodbc-connect   6632/tcp
 cisco-vpath-tun  6633/udp
 mpls-pm          6634/udp
@@ -9307,6 +9317,7 @@ acctopus-cc      6868/tcp
 acctopus-st      6868/udp
 muse             6888/tcp
 muse             6888/udp
+rtimeviewer      6900/tcp
 jetstream        6901/tcp
 ethoscan         6935/tcp
 ethoscan         6935/udp
@@ -9441,6 +9452,7 @@ fodms            7200/tcp
 fodms            7200/udp
 dlip             7201/tcp
 dlip             7201/udp
+pon-ictp         7202/tcp
 PS-Server        7215/tcp
 PS-Capture-Pro   7216/tcp
 ramp             7227/tcp
@@ -9523,6 +9535,7 @@ sttunnel         7471/tcp
 rise             7473/tcp
 rise             7473/udp
 neo4j            7474/tcp
+openit           7478/tcp
 telops-lmd       7491/tcp
 telops-lmd       7491/udp
 silhouette       7500/tcp
@@ -9602,6 +9615,7 @@ collaber         7689/udp
 klio             7697/tcp
 klio             7697/udp
 em7-secom        7700/tcp
+nfapi            7701/sctp
 sync-em7         7707/tcp
 sync-em7         7707/udp
 scinet           7708/tcp
@@ -9761,8 +9775,10 @@ senomix08        8059/udp
 aero             8060/udp
 toad-bi-appsrvr  8066/tcp
 infi-async       8067/tcp
+ucs-isc          8070/tcp
 gadugadu         8074/tcp
 gadugadu         8074/udp
+mles             8077/tcp
 http-alt         8080/tcp
 http-alt         8080/udp
 sunproxyadmin    8081/tcp
@@ -9777,6 +9793,7 @@ simplifymedia    8087/tcp
 simplifymedia    8087/udp
 radan-http       8088/tcp
 radan-http       8088/udp
+opsmessaging     8090/tcp
 jamlink          8091/tcp
 sac              8097/tcp
 sac              8097/udp
@@ -9852,6 +9869,7 @@ hncp-udp-port    8231/udp
 hncp-dtls-port   8232/udp
 synapse-nhttps   8243/tcp
 synapse-nhttps   8243/udp
+robot-remote     8270/tcp
 pando-sec        8276/tcp
 pando-sec        8276/udp
 synapse-nhttp    8280/tcp
@@ -9984,6 +10002,7 @@ sunwebadmin      8800/tcp
 sunwebadmin      8800/udp
 truecm           8804/tcp
 truecm           8804/udp
+ssports-bcast    8808/udp
 dxspider         8873/tcp
 dxspider         8873/udp
 cddbp-alt        8880/tcp
@@ -10797,6 +10816,8 @@ opsec-uaa       19191/tcp
 opsec-uaa       19191/udp
 ua-secureagent  19194/tcp
 ua-secureagent  19194/udp
+cora            19220/tcp
+cora-disc       19220/udp
 keysrvr         19283/tcp
 keysrvr         19283/udp
 keyshadow       19315/tcp
@@ -11078,6 +11099,8 @@ kingdomsonline  30260/udp
 samsung-disc    30832/udp
 ovobs           30999/tcp
 ovobs           30999/udp
+ka-sddp         31016/tcp
+ka-kdp          31016/udp
 autotrac-acp    31020/tcp
 yawn            31029/udp
 pace-licensed   31400/tcp
@@ -11169,6 +11192,8 @@ rt-classmanager 35004/tcp
 rt-classmanager 35004/udp
 rt-labtracker   35005/tcp
 rt-helper       35006/tcp
+axio-disc       35100/tcp
+axio-disc       35100/udp
 kitim           35354/tcp
 altova-lm       35355/tcp
 altova-lm-disc  35355/udp
