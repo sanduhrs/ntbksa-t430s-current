@@ -68,3 +68,4 @@ sdkusers:!::sauditor
 smsd:!::
 usbmux:!::
 radicale:!::radicale
+wireshark:!::
