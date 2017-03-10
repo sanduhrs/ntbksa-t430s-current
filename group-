@@ -69,3 +69,4 @@ smsd:x:1002:
 usbmux:x:140:
 radicale:x:612:radicale
 wireshark:x:150:
+grafana:x:993:

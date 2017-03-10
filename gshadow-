@@ -69,3 +69,4 @@ smsd:!::
 usbmux:!::
 radicale:!::radicale
 wireshark:!::
+grafana:!!::

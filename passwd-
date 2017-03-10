@@ -36,3 +36,4 @@ nullmail:x:613:613:nullmailer MTA:/var/nullmailer:/bin/sh
 smsd:x:1001:1002:SMS Gateway Daemon:/var/spool/sms:/sbin/nologin
 usbmux:x:140:140:usbmux user:/:/sbin/nologin
 radicale:x:612:612::/var/lib/radicale/:/usr/bin/false
+grafana:x:993:993::/var/lib/grafana:/sbin/nologin
