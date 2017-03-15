@@ -70,3 +70,4 @@ usbmux:!::
 radicale:!::radicale
 wireshark:!::
 grafana:!!::
+prometheus:!::
