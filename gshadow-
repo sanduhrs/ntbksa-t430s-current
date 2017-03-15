@@ -71,3 +71,5 @@ radicale:!::radicale
 wireshark:!::
 grafana:!!::
 prometheus:!::
+traefik:!::
+somebody:!::
