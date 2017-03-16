@@ -71,5 +71,3 @@ radicale:x:612:radicale
 wireshark:x:150:
 grafana:x:993:
 prometheus:x:611:
-traefik:x:610:
-somebody:x:1003:
