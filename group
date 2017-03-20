@@ -72,3 +72,4 @@ wireshark:x:150:
 grafana:x:993:
 prometheus:x:611:
 traefik:x:610:
+memcached:x:609:
