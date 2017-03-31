@@ -3,6 +3,7 @@
 #
 
 #<ip-address>	<hostname.domain.org>	<hostname>
+109.239.48.243  prometheus.erdfisch.de
 127.0.0.1	localhost.localdomain	localhost
 ::1		localhost.localdomain	localhost
 # End of file
