@@ -6,7 +6,7 @@ permissions=
 timestamp=1492008587
 
 [vpn]
-auth=SHA512
+auth=MD5
 ca=/home/sauditor/.ssh/Adacor/configs/efw_sauditor@fwcluster01.acc.adacor.net/efw_sauditor.p12
 cert=/home/sauditor/.ssh/Adacor/configs/efw_sauditor@fwcluster01.acc.adacor.net/efw_sauditor.p12
 cert-pass-flags=1
