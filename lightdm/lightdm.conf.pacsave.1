@@ -68,7 +68,7 @@ run-directory=/run/lightdm
 # allow-user-switching = True if allowed to switch users
 # allow-guest = True if guest login is allowed
 # guest-session = Session to load for guests (overrides user-session)
-# session-wrapper = Wrapper script to run session with
+session-wrapper=/etc/lightdm/Xsession
 # greeter-wrapper = Wrapper script to run greeter with
 # guest-wrapper = Wrapper script to run guest sessions with
 # display-setup-script = Script to run when starting a greeter session (runs as root)
@@ -101,12 +101,13 @@ run-directory=/run/lightdm
 #xdmcp-key=
 #unity-compositor-command=unity-system-compositor
 #unity-compositor-timeout=60
-greeter-session=lightdm-webkit-google
+#greeter-session=lightdm-webkit2-greeter
+greeter-session=lightdm-pantheon-greeter
 #greeter-hide-users=false
 #greeter-allow-guest=true
 #greeter-show-manual-login=false
 #greeter-show-remote-login=true
-#user-session=default
+user-session=gnome
 #allow-user-switching=true
 #allow-guest=true
 #guest-session=
@@ -119,8 +120,8 @@ session-wrapper=/etc/lightdm/Xsession
 #session-setup-script=
 #session-cleanup-script=
 #autologin-guest=false
-#autologin-user=
-#autologin-user-timeout=0
+#autologin-user=sauditor
+autologin-user-timeout=0
 #autologin-in-background=false
 #autologin-session=
 #exit-on-failure=false
@@ -132,7 +133,6 @@ session-wrapper=/etc/lightdm/Xsession
 # port = UDP/IP port to listen for connections on
 # listen-address = Host/address to listen for XDMCP connections (use all addresses if not present)
 # key = Authentication key to use for XDM-AUTHENTICATION-1 or blank to not use authentication (stored in keys.conf)
-# hostname = Hostname to report to XDMCP clients (defaults to system hostname if unset)
 #
 # The authentication key is a 56 bit DES key specified in hex as 0xnnnnnnnnnnnnnn.  Alternatively
 # it can be a word and the first 7 characters are used as the key.
@@ -142,7 +142,6 @@ session-wrapper=/etc/lightdm/Xsession
 #port=177
 #listen-address=
 #key=
-#hostname=
 
 #
 # VNC Server configuration
