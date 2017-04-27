@@ -73,3 +73,5 @@ grafana:!!::
 prometheus:!::
 traefik:!::
 memcached:!::
+postgres:!::
+solr:!::

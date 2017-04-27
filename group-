@@ -73,3 +73,5 @@ grafana:x:993:
 prometheus:x:611:
 traefik:x:610:
 memcached:x:609:
+postgres:x:88:
+solr:x:114:
