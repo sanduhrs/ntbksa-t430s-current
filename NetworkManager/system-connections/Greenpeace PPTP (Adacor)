@@ -1,0 +1,27 @@
+[connection]
+id=Greenpeace PPTP (Adacor)
+uuid=bdb31d16-e3b9-4a7e-8d29-13d78dff699d
+type=vpn
+autoconnect=false
+permissions=user:sauditor:;
+timestamp=1493385810
+
+[vpn]
+gateway=pptp.gpd.acc.adacor.net
+password-flags=1
+refuse-chap=yes
+refuse-eap=yes
+refuse-pap=yes
+require-mppe=yes
+user=efw_sauditor
+service-type=org.freedesktop.NetworkManager.pptp
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
+never-default=true
