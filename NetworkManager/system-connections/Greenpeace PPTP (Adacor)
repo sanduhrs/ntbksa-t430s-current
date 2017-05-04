@@ -4,7 +4,7 @@ uuid=bdb31d16-e3b9-4a7e-8d29-13d78dff699d
 type=vpn
 autoconnect=false
 permissions=user:sauditor:;
-timestamp=1493385810
+timestamp=1493394465
 
 [vpn]
 gateway=pptp.gpd.acc.adacor.net
