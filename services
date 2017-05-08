@@ -1336,6 +1336,8 @@ gdoi              848/tcp
 gdoi              848/udp
 domain-s          853/tcp
 domain-s          853/udp
+dlep              854/tcp
+dlep              854/udp
 iscsi             860/tcp
 iscsi             860/udp
 owamp-control     861/tcp
@@ -8788,6 +8790,7 @@ qmvideo          5689/udp
 rbsystem         5693/tcp
 kmip             5696/tcp
 supportassist    5700/tcp
+storageos        5705/tcp
 proshareaudio    5713/tcp
 proshareaudio    5713/udp
 prosharevideo    5714/tcp
@@ -9129,6 +9132,8 @@ skip-cert-recv   6455/tcp
 skip-cert-recv   6455/udp
 skip-cert-send   6456/tcp
 skip-cert-send   6456/udp
+ieee11073-20701  6464/tcp
+ieee11073-20701  6464/udp
 lvision-lm       6471/tcp
 lvision-lm       6471/udp
 sun-sr-http      6480/tcp
@@ -9381,6 +9386,8 @@ microtalon-com   7014/tcp
 microtalon-com   7014/udp
 talon-webserver  7015/tcp
 talon-webserver  7015/udp
+spg              7016/tcp
+spg              7016/udp
 fisa-svc         7018/tcp
 doceri-ctl       7019/tcp
 doceri-view      7019/udp
@@ -9730,6 +9737,8 @@ mcreport         8003/tcp
 mcreport         8003/udp
 mxi              8005/tcp
 mxi              8005/udp
+wpl-analytics    8006/tcp
+wpl-disc         8006/udp
 http-alt         8008/tcp
 http-alt         8008/udp
 qbdb             8019/tcp
@@ -9922,6 +9931,7 @@ espeech          8416/tcp
 espeech          8416/udp
 espeech-rtp      8417/tcp
 espeech-rtp      8417/udp
+aritts           8423/tcp
 cybro-a-bus      8442/tcp
 cybro-a-bus      8442/udp
 pcsync-https     8443/tcp
@@ -10359,6 +10369,7 @@ alljoyn          9956/udp
 odnsp            9966/tcp
 odnsp            9966/udp
 xybrid-rt        9978/tcp
+pumpkindb        9981/tcp
 dsm-scm-target   9987/tcp
 dsm-scm-target   9987/udp
 nsesrvr          9988/tcp
@@ -10400,6 +10411,7 @@ octopus         10008/udp
 swdtp-sv        10009/tcp
 swdtp-sv        10009/udp
 rxapi           10010/tcp
+abb-hw          10020/tcp
 zabbix-agent    10050/tcp
 zabbix-agent    10050/udp
 zabbix-trapper  10051/tcp
@@ -10879,6 +10891,7 @@ athand-mmp      20999/udp
 irtrans         21000/tcp
 irtrans         21000/udp
 notezilla-lan   21010/tcp
+aigairserver    21221/tcp
 rdm-tfs         21553/tcp
 dfserver        21554/tcp
 dfserver        21554/udp
@@ -11350,3 +11363,5 @@ iqobject        48619/udp
 robotraconteur  48653/tcp
 robotraconteur  48653/udp
 matahari        49000/tcp
+nusrp           49001/tcp
+nusdp-disc      49001/udp
