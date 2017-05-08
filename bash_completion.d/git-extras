@@ -29,7 +29,7 @@ _git_chore(){
 }
 
 _git_authors(){
-  __gitcomp "-l --list"
+  __gitcomp "-l --list --no-email"
 }
 
 _git_contrib(){
@@ -132,6 +132,10 @@ _git_refactor(){
 
 _git_scp(){
   __git_complete_remote_or_refspec
+}
+
+_git_stamp(){
+  __gitcomp '--replace -r'
 }
 
 _git_rscp(){
