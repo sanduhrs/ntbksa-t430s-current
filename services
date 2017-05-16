@@ -9388,6 +9388,8 @@ talon-webserver  7015/tcp
 talon-webserver  7015/udp
 spg              7016/tcp
 spg              7016/udp
+grasp            7017/tcp
+grasp            7017/udp
 fisa-svc         7018/tcp
 doceri-ctl       7019/tcp
 doceri-view      7019/udp
@@ -10012,6 +10014,7 @@ sunwebadmin      8800/tcp
 sunwebadmin      8800/udp
 truecm           8804/tcp
 truecm           8804/udp
+pfcp             8805/udp
 ssports-bcast    8808/udp
 dxspider         8873/tcp
 dxspider         8873/udp
