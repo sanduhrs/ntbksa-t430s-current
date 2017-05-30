@@ -19,7 +19,7 @@ rfkill:x::
 smmsp:::
 proc:::polkitd
 http:::sauditor,radicale
-games:::
+games:::sauditor
 lock:::
 uuidd:x::
 dbus:x::
@@ -29,9 +29,9 @@ audio:::sauditor
 optical:::
 floppy:x::
 storage:x::sauditor
-scanner:x::
+scanner:x::sauditor
 input:x::
-power:x::
+power:x::sauditor
 nobody:::
 users:::http
 systemd-journal:::
