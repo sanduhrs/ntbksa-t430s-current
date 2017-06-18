@@ -4,7 +4,7 @@ uuid=34c4479d-3693-4be5-aa7f-74d9fa051ead
 type=vpn
 autoconnect=false
 permissions=user:sauditor:;
-secondaries=
+timestamp=1496406322
 
 [vpn]
 authtype=password
@@ -17,6 +17,7 @@ gateway-flags=2
 gwcert-flags=2
 lasthost-flags=0
 pem_passphrase_fsid=no
+protocol=anyconnect
 stoken_source=disabled
 xmlconfig-flags=0
 service-type=org.freedesktop.NetworkManager.openconnect
@@ -31,6 +32,7 @@ xmlconfig=PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxBbnlDb25uZWN0UH
 [ipv4]
 dns-search=
 method=auto
+never-default=true
 
 [ipv6]
 addr-gen-mode=stable-privacy
