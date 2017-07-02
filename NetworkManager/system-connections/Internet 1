@@ -1,0 +1,25 @@
+[connection]
+id=Internet 1
+uuid=b1f3c220-0721-4cf7-ab94-debdf13a205e
+type=wifi
+permissions=
+
+[wifi]
+mac-address=60:67:20:DD:3E:7C
+mac-address-blacklist=
+mode=infrastructure
+ssid=Internet
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=--InterNet+
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
