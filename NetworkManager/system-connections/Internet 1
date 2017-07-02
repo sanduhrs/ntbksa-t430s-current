@@ -13,7 +13,7 @@ ssid=Internet
 [wifi-security]
 auth-alg=open
 key-mgmt=wpa-psk
-psk=--InterNet+
+psk=1nt3rn3t
 
 [ipv4]
 dns-search=
