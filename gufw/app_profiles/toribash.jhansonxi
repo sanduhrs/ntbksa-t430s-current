@@ -29,6 +29,6 @@ reference=[http://forum.toribash.com/showthread.php?t=6667 Toribash Community: A
 [Toribash 20180-20190]
 title=Toribash Full
 description=A fighting game based on the physics sandbox model with customizable moves
-ports=20180:20190
+ports=20180:20190/tcp|20180:20190/udp
 categories=Games;Action;
 reference=[http://forum.toribash.com/showthread.php?t=6667 Toribash Community: A sophisicated guide to setting up a highly customizable server]

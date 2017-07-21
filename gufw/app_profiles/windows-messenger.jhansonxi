@@ -16,7 +16,7 @@ reference=[http://technet.microsoft.com/en-us/library/bb457095.aspx Windows Mess
 title=Windows Messenger Assistance
 description=Remote Assistance/Remote Desktop Protocol/Terminal Services (RDP)
 ports=3389/tcp
-warning=It may be a security risk to use a default allow policy for RDP
+warning=It may be a security risk to use a default allow policy
 categories=Network;Remote Access;
 reference=[http://support.microsoft.com/kb/927847 Network ports and URLs that are used by Windows Live Messenger]
 
