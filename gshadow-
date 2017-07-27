@@ -18,7 +18,7 @@ locate:::
 rfkill:x::
 smmsp:::
 proc:::polkitd
-http:::sauditor,radicale
+http:::sauditor
 games:::sauditor
 lock:::
 uuidd:x::
@@ -67,7 +67,6 @@ nullmail:!::
 sdkusers:!::sauditor
 smsd:!::
 usbmux:!::
-radicale:!::radicale
 wireshark:!::
 grafana:!!::
 prometheus:!::
