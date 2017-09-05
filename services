@@ -63,8 +63,6 @@ mpm                45/tcp
 mpm                45/udp
 mpm-snd            46/tcp
 mpm-snd            46/udp
-ni-ftp             47/tcp
-ni-ftp             47/udp
 auditd             48/tcp
 auditd             48/udp
 tacacs             49/tcp
@@ -83,8 +81,6 @@ xns-auth           56/tcp
 xns-auth           56/udp
 xns-mail           58/tcp
 xns-mail           58/udp
-ni-mail            61/tcp
-ni-mail            61/udp
 acas               62/tcp
 acas               62/udp
 whoispp            63/tcp
@@ -1369,6 +1365,7 @@ apex-mesh         912/tcp
 apex-mesh         912/udp
 apex-edge         913/tcp
 apex-edge         913/udp
+rndc              953/tcp
 ftps-data         989/tcp
 ftps-data         989/udp
 ftps              990/tcp
@@ -5455,8 +5452,7 @@ ls3              3069/tcp
 ls3              3069/udp
 mgxswitch        3070/tcp
 mgxswitch        3070/udp
-csd-mgmt-port    3071/tcp
-csd-mgmt-port    3071/udp
+xplat-replicate  3071/tcp
 csd-monitor      3072/tcp
 csd-monitor      3072/udp
 vcrp             3073/tcp
@@ -7654,8 +7650,8 @@ batman           4305/tcp
 batman           4305/udp
 pinghgl          4306/tcp
 pinghgl          4306/udp
-visicron-vs      4307/tcp
-visicron-vs      4307/udp
+trueconf         4307/tcp
+trueconf         4307/udp
 compx-lockview   4308/tcp
 compx-lockview   4308/udp
 dserver          4309/tcp
@@ -8178,6 +8174,7 @@ ccss-qmm         4969/tcp
 ccss-qmm         4969/udp
 ccss-qsm         4970/tcp
 ccss-qsm         4970/udp
+burp             4971/tcp
 ctxs-vpp         4980/udp
 webyast          4984/tcp
 gerhcs           4985/tcp
@@ -9741,6 +9738,8 @@ mxi              8005/tcp
 mxi              8005/udp
 wpl-analytics    8006/tcp
 wpl-disc         8006/udp
+warppipe         8007/tcp
+warppipe         8007/udp
 http-alt         8008/tcp
 http-alt         8008/udp
 qbdb             8019/tcp
@@ -9763,6 +9762,8 @@ vantronix-mgmt   8034/tcp
 vantronix-mgmt   8034/udp
 ampify           8040/tcp
 ampify           8040/udp
+enguity-xccetp   8041/tcp
+enguity-xccetp   8041/udp
 fs-agent         8042/tcp
 fs-server        8043/tcp
 fs-mgmt          8044/tcp
@@ -10372,6 +10373,7 @@ alljoyn          9956/udp
 odnsp            9966/tcp
 odnsp            9966/udp
 xybrid-rt        9978/tcp
+visweather       9979/tcp
 pumpkindb        9981/tcp
 dsm-scm-target   9987/tcp
 dsm-scm-target   9987/udp
@@ -11112,6 +11114,7 @@ rwp             30100/tcp
 rwp             30100/sctp
 kingdomsonline  30260/tcp
 kingdomsonline  30260/udp
+gs-realtime     30400/tcp
 samsung-disc    30832/udp
 ovobs           30999/tcp
 ovobs           30999/udp
@@ -11246,6 +11249,9 @@ fairview        38202/tcp
 fairview        38202/udp
 agpolicy        38203/tcp
 agpolicy        38203/udp
+ng-control      38412/sctp
+xn-control      38422/sctp
+f1-control      38472/sctp
 sruth           38800/tcp
 secrmmsafecopya 38865/tcp
 turbonote-1     39681/tcp
