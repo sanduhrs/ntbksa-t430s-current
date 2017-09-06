@@ -1,6 +1,6 @@
 [connection]
-id=Hofnetz
-uuid=75c7be3f-5064-4669-bb1d-d15733d404bd
+id=erdfisch.de 1
+uuid=44c7deb1-8529-44ec-861b-4ec7330a3f5a
 type=wifi
 permissions=
 
@@ -8,12 +8,7 @@ permissions=
 mac-address=60:67:20:DD:3E:7C
 mac-address-blacklist=
 mode=infrastructure
-ssid=Hofnetz
-
-[wifi-security]
-auth-alg=open
-key-mgmt=wpa-psk
-psk=4710877598555879
+ssid=erdfisch.de
 
 [ipv4]
 dns-search=
