@@ -13,7 +13,7 @@ ssid=erdfisch
 [wifi-security]
 auth-alg=open
 key-mgmt=wpa-psk
-psk=n3erdf1sch3r
+psk=n3rdf1sch3r
 
 [ipv4]
 dns-search=
