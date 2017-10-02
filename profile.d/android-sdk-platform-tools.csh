@@ -1,1 +1,1 @@
-setenv PATH ${PATH}:/opt/android-sdk/platform-tools
+setenv PATH "${PATH}:/opt/android-sdk/platform-tools"

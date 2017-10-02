@@ -1,1 +1,1 @@
-export PATH=$PATH:/opt/android-sdk/platform-tools
+export PATH="${PATH}:/opt/android-sdk/platform-tools"
