@@ -74,3 +74,4 @@ traefik:!::
 memcached:!::
 postgres:!::
 solr:!::
+kvm:!!::

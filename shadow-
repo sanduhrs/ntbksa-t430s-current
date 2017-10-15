@@ -1,4 +1,4 @@
-root:$6$ivvG07zab9Cy302S$QVvWxHvyx.HqJc0zrxY1p4Y0s/R8laopV/DEOrZRELb7GfUEDjfuMB62el9qGL/yNzradAkIl550q3V3A9TiS/:17451::::::
+root:!$6$ivvG07zab9Cy302S$QVvWxHvyx.HqJc0zrxY1p4Y0s/R8laopV/DEOrZRELb7GfUEDjfuMB62el9qGL/yNzradAkIl550q3V3A9TiS/:17451::::::
 bin:x:14871::::::
 daemon:x:14871::::::
 mail:x:14871::::::
@@ -41,3 +41,4 @@ traefik:!:17241::::::
 memcached:!:17245::::::
 postgres:!:17245:0:99999:7:::
 solr:!:17282:0:99999:7:::
+rabbitmq:!:17454::::::
