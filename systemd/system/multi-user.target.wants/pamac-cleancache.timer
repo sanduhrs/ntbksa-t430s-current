@@ -1,1 +1,1 @@
-../../../../usr/lib/systemd/system/pamac-cleancache.timer
+/usr/lib/systemd/system/pamac-cleancache.timer
