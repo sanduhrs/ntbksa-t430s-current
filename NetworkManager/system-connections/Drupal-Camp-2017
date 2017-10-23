@@ -1,6 +1,6 @@
 [connection]
-id=WIFIonICE
-uuid=1912c84f-6950-4080-98f1-fd8b9900df72
+id=Drupal-Camp-2017
+uuid=80383b8e-bed2-44ef-9bb5-9563abf0855f
 type=wifi
 permissions=
 
@@ -8,7 +8,12 @@ permissions=
 mac-address=60:67:20:DD:3E:7C
 mac-address-blacklist=
 mode=infrastructure
-ssid=WIFIonICE
+ssid=Drupal-Camp-2017
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=drupalcamp20!7goo
 
 [ipv4]
 dns-search=
