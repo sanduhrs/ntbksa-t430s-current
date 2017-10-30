@@ -75,3 +75,4 @@ memcached:x:609:
 postgres:x:88:
 solr:x:114:
 kvm:x:992:
+rabbitmq:x:197:
