@@ -1,0 +1,22 @@
+[connection]
+id=AASTRA OpenCom X320
+uuid=7a89c2b6-9f54-3f58-8824-11b1413f10b6
+type=ethernet
+autoconnect-priority=-999
+permissions=
+timestamp=1510915347
+
+[ethernet]
+cloned-mac-address=3C:97:0E:4C:74:A5
+mac-address=3C:97:0E:4C:74:A5
+mac-address-blacklist=
+
+[ipv4]
+address1=192.168.0.250/24
+dns-search=
+method=manual
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
