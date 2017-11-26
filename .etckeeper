@@ -106,6 +106,7 @@ maybe chmod 0600 'NetworkManager/system-connections/erdfisch-369573dc-e381-44c8-
 maybe chmod 0600 'NetworkManager/system-connections/erdfisch.de'
 maybe chmod 0600 'NetworkManager/system-connections/erdfisch.de 1'
 maybe chmod 0600 'NetworkManager/system-connections/gpd-adacor_'
+maybe chmod 0600 'NetworkManager/system-connections/iPhone D'
 maybe chmod 0600 'NetworkManager/system-connections/uph'
 maybe chmod 0755 'Nextcloud'
 maybe chmod 0644 'Nextcloud/sync-exclude.lst'

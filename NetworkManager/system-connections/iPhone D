@@ -1,0 +1,25 @@
+[connection]
+id=iPhone D
+uuid=074dc372-2775-416b-bfe1-6c4f955f0b40
+type=wifi
+permissions=
+
+[wifi]
+mac-address=60:67:20:DD:3E:7C
+mac-address-blacklist=
+mode=infrastructure
+ssid=iPhone D
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=geared4255
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
