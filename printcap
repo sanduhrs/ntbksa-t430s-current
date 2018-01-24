@@ -2,5 +2,7 @@
 # /etc/cups/printers.conf file.  All changes to this file
 # will be lost.
 Generic-PDF|Generic PDF:rm=ntbksa-t430.erdfisch.de:rp=Generic-PDF:
+HP_Color_LaserJet_MFP_M477fdw|:rm=ntbksa-t430.erdfisch.de:rp=HP_Color_LaserJet_MFP_M477fdw:
+HP_Color_LaserJet_MFP_M477fdw_fax|:rm=ntbksa-t430.erdfisch.de:rp=HP_Color_LaserJet_MFP_M477fdw_fax:
 MFC9332CDW|MFC9332CDW:rm=ntbksa-t430.erdfisch.de:rp=MFC9332CDW:
 Samsung-ML-1630-Series|Samsung ML-1630 Series:rm=ntbksa-t430.erdfisch.de:rp=Samsung-ML-1630-Series:
