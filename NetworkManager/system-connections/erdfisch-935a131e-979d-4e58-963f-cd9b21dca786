@@ -1,10 +1,9 @@
 [connection]
 id=erdfisch
-uuid=369573dc-e381-44c8-8385-6925f682ad83
+uuid=935a131e-979d-4e58-963f-cd9b21dca786
 type=vpn
 autoconnect=false
 permissions=user:sauditor:;
-timestamp=1511937195
 
 [vpn]
 IKE DH Group=dh2
@@ -22,7 +21,6 @@ xauth-password-type=save
 service-type=org.freedesktop.NetworkManager.vpnc
 
 [ipv4]
-dns=192.168.25.1;
 dns-search=
 method=auto
 
