@@ -1,6 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Evolution Alarm Notify
+Name[af]=Evolution alarm kennisgewing
 Name[an]=Notificador d'alertas d'Evolution
 Name[ar]=منبه افلوشن
 Name[as]=Evolution এলাৰ্ম অধিসূচনা
@@ -65,6 +66,7 @@ Name[zh_CN]=Evolution 提醒通知
 Name[zh_HK]=Evolution 鬧鈴通知
 Name[zh_TW]=Evolution 鬧鈴通知
 Comment=Calendar event notifications
+Comment[af]=Kalendergeleentheid kennisgewings
 Comment[an]=Notificacions d'escayecimientos d'o calandario
 Comment[ar]=إخطارات أحداث التقويم
 Comment[as]=কেলেন্ডাৰ ঘটনা অধিসূচনাসমূহ
