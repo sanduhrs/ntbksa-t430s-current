@@ -1,0 +1,25 @@
+[connection]
+id=FRITZ!Box 7490
+uuid=c63d2e5e-90c8-4329-a46e-559eab176621
+type=wifi
+permissions=
+
+[wifi]
+mac-address=60:67:20:DD:3E:7C
+mac-address-blacklist=
+mode=infrastructure
+ssid=FRITZ!Box 7490
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=99294547824494807211
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
