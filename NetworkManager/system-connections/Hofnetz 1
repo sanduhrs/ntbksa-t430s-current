@@ -1,0 +1,25 @@
+[connection]
+id=Hofnetz 1
+uuid=ab4c88fb-beeb-4186-815f-116d4e8a16e6
+type=wifi
+permissions=
+
+[wifi]
+mac-address=E0:9D:31:3E:60:6C
+mac-address-blacklist=
+mode=infrastructure
+ssid=Hofnetz
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=4710877598555879
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto

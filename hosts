@@ -4,6 +4,7 @@
 
 #<ip-address>	<hostname.domain.org>	<hostname>
 134.119.26.197  drupal-glossary.org
+192.168.99.21   greenpeace.infra.erd.fish
 127.0.0.1	localhost.localdomain	localhost
 ::1		localhost.localdomain	localhost
 # End of file
