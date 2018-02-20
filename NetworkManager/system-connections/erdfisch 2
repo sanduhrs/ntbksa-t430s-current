@@ -1,0 +1,25 @@
+[connection]
+id=erdfisch 2
+uuid=b80691f9-2ec5-4e1e-a817-d8c29f16521c
+type=wifi
+permissions=
+
+[wifi]
+mac-address=E0:9D:31:3E:60:6C
+mac-address-blacklist=
+mode=infrastructure
+ssid=erdfisch
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=n3rdf1sch3r
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
