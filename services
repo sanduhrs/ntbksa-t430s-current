@@ -3571,8 +3571,8 @@ idonix-metanet   2112/tcp
 idonix-metanet   2112/udp
 hsl-storm        2113/tcp
 hsl-storm        2113/udp
-newheights       2114/tcp
-newheights       2114/udp
+ariascribe       2114/tcp
+ariascribe       2114/udp
 kdm              2115/tcp
 kdm              2115/udp
 ccowcmr          2116/tcp
@@ -9407,6 +9407,7 @@ vmsvc            7024/tcp
 vmsvc            7024/udp
 vmsvc-2          7025/tcp
 vmsvc-2          7025/udp
+loreji-panel     7026/tcp
 op-probe         7030/tcp
 op-probe         7030/udp
 iposplanet       7031/tcp
@@ -9415,6 +9416,8 @@ arcp             7070/tcp
 arcp             7070/udp
 iwg1             7071/tcp
 iwg1             7071/udp
+iba-cfg          7072/tcp
+iba-cfg-disc     7072/udp
 martalk          7073/tcp
 empowerid        7080/tcp
 empowerid        7080/udp
@@ -9608,6 +9611,8 @@ pmdfmgt          7633/tcp
 pmdfmgt          7633/udp
 cuseeme          7648/tcp
 cuseeme          7648/udp
+rome             7663/tcp
+rome             7663/udp
 imqstomp         7672/tcp
 imqstomps        7673/tcp
 imqtunnels       7674/tcp
@@ -11369,6 +11374,7 @@ nimgtw          48003/tcp
 nimgtw          48003/udp
 nimbusdb        48004/tcp
 nimbusdbctrl    48005/tcp
+juliar          48048/tcp
 3gpp-cbsp       48049/tcp
 weandsf         48050/tcp
 isnetserv       48128/tcp

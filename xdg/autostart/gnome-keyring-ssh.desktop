@@ -1,6 +1,5 @@
 [Desktop Entry]
 Type=Application
-Name=SSH Key Agent
 Name[af]=SSH-sleutelagent
 Name[ar]=عميل مفاتيح SSH
 Name[as]=SSH কি সহায়ক
@@ -70,7 +69,7 @@ Name[vi]=Đại diện khóa SSH
 Name[zh_CN]=SSH 密钥代理
 Name[zh_HK]=SSH 密碼匙代理程式
 Name[zh_TW]=SSH 金鑰代理程式
-Comment=GNOME Keyring: SSH Agent
+Name=SSH Key Agent
 Comment[af]=GNOME-sleutelring: SSH-agent
 Comment[ar]=حلقة مفاتيح جنوم: عميل SSH
 Comment[as]=GNOME Keyring: SSH সহায়ক
@@ -141,6 +140,7 @@ Comment[vi]=Chùm chìa khóa GNOME: Đại diện SSH
 Comment[zh_CN]=GNOME 密钥环：SSH 代理
 Comment[zh_HK]=GNOME 密碼匙圈：SSH 代理程式
 Comment[zh_TW]=GNOME 鑰匙圈：SSH 代理程式
+Comment=GNOME Keyring: SSH Agent
 Exec=/usr/bin/gnome-keyring-daemon --start --components=ssh
 OnlyShowIn=GNOME;Unity;MATE;Cinnamon;
 X-GNOME-Autostart-Phase=PreDisplayServer
@@ -149,4 +149,4 @@ X-GNOME-Autostart-Notify=true
 X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=gnome-keyring
 X-GNOME-Bugzilla-Component=general
-X-GNOME-Bugzilla-Version=3.27.2
+X-GNOME-Bugzilla-Version=3.27.4
