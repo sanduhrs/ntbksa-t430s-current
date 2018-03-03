@@ -1,0 +1,25 @@
+[connection]
+id=FRITZ!Box 4020 JE
+uuid=c363ef1c-a369-4507-8e07-b1ee415564f9
+type=wifi
+permissions=
+
+[wifi]
+mac-address=E0:9D:31:3E:60:6C
+mac-address-blacklist=
+mode=infrastructure
+ssid=FRITZ!Box 4020 JE
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=59521305165099805064
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
