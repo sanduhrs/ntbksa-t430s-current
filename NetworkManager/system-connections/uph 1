@@ -1,0 +1,25 @@
+[connection]
+id=uph 1
+uuid=a19856b2-cf83-4dfa-bacd-429ef2af7116
+type=wifi
+permissions=
+
+[wifi]
+mac-address=E0:9D:31:3E:60:6C
+mac-address-blacklist=
+mode=infrastructure
+ssid=uph
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=Geburtstage79388
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
