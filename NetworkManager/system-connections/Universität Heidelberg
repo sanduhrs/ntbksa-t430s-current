@@ -4,7 +4,7 @@ uuid=34c4479d-3693-4be5-aa7f-74d9fa051ead
 type=vpn
 autoconnect=false
 permissions=user:sauditor:;
-timestamp=1496406322
+timestamp=1521107193
 
 [vpn]
 authtype=password
@@ -32,7 +32,6 @@ xmlconfig=PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxBbnlDb25uZWN0UH
 [ipv4]
 dns-search=
 method=auto
-never-default=true
 
 [ipv6]
 addr-gen-mode=stable-privacy
