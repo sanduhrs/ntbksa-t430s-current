@@ -1,0 +1,24 @@
+[connection]
+id=Heidiland 1
+uuid=a15faa5f-d442-4b94-bd4e-92964d7118d1
+type=wifi
+permissions=
+
+[wifi]
+mac-address=E0:9D:31:3E:60:6C
+mac-address-blacklist=
+mode=infrastructure
+ssid=Heidiland
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
