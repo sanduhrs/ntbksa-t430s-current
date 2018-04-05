@@ -37,8 +37,8 @@ test -f /etc/xprofile && . /etc/xprofile
 test -f "$HOME/.xprofile" && . "$HOME/.xprofile"
 
 # Translation stuff
-if [ -x "/usr/lib/gdm/gdmtranslate" ] ; then
-  gdmtranslate="/usr/lib/gdm/gdmtranslate"
+if [ -x "/usr/lib/gdmtranslate" ] ; then
+  gdmtranslate="/usr/lib/gdmtranslate"
 else
   gdmtranslate=
 fi
