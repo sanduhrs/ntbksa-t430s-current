@@ -13,6 +13,7 @@ ssid=Heidiland
 [wifi-security]
 auth-alg=open
 key-mgmt=wpa-psk
+psk=50420325957076756249
 
 [ipv4]
 dns-search=
