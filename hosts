@@ -3,48 +3,6 @@
 #
 
 #<ip-address>	<hostname.domain.org>	<hostname>
-134.119.26.197  drupal-glossary.org
-192.168.99.21   greenpeace.infra.erd.fish
-
-109.239.60.193    erdfisch.io
-109.239.60.193    mail.erdfisch.io
-109.239.60.193    mail.erdfisch.de
-109.239.60.193    mail.drupal-business-and-community-days.de
-109.239.60.193    mail.erdfisch.tv
-109.239.60.193    mail.erdfisch.mobi
-109.239.60.193    mail.erdfisch.com
-109.239.60.193    mail.erdfisch.net
-109.239.60.193    mail.erdfisch.org
-109.239.60.193    mail.erdfisch.biz
-109.239.60.193    mail.erdfisch.eu
-109.239.60.193    mail.erdfisch.info
-109.239.60.193    mail.erdfish.com
-109.239.60.193    mail.erdfish.net
-109.239.60.193    mail.erdfish.org
-109.239.60.193    mail.nerdfisch.de
-109.239.60.193    mail.erd.fish
-109.239.60.193    mail.drupal-business-and-community-days.com
-109.239.60.193    mail.dbacd.com
-109.239.60.193    mail.drupalbcdays.de
-109.239.60.193    mail.drupalbcdays.com
-109.239.60.193    mail.stefan-auditor.de
-109.239.60.193    mail.audiens.de
-109.239.60.193    mail.punahilkka.de
-109.239.60.193    mail.diediele.eu
-109.239.60.193    mail.kinder-steiners.de
-109.239.60.193    mail.open-epetition.org
-109.239.60.193    mail.niuno.org
-109.239.60.193    mail.hamburginabox.com
-109.239.60.193    mail.hamburg-in-a-box.com
-109.239.60.193    mail.retposto.eu
-109.239.60.193    mail.retposto.de
-109.239.60.193    mail.drupal-glossary.org
-109.239.60.193    mail.freundeskreis-hd.de
-109.239.60.193    mail.4-5-3-schweden.de
-109.239.60.193    mail.vier-fuenf-drei-schweden.de
-109.239.60.193    mail.drupal-europe.de
-109.239.60.193    mail.drupaleurope.de
-
 127.0.0.1	localhost.localdomain	localhost
 ::1		localhost.localdomain	localhost
 # End of file
