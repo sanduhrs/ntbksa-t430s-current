@@ -1,4 +1,4 @@
-root:!$6$Vona/BD/ePw5nL2F$Vi/8WBbH2/5GI50rsrWbgtfqXdujVQpgaNz0rEOgVaHD123z6PBiBhRLf.q4FqUGzej7JObhtdAlmxw7R1Cxx.:17555::::::
+root:$6$c7jBoXoF6bGANPZr$4uTO/daM0avzGKBH8RJyjK7psPJB6jROcNgktaS6/j9rdp1D0dM9dRtnIEwVkG9drokC2Dc2wygIw4Xx2Ee4k/:17630::::::
 bin:x:14871::::::
 daemon:x:14871::::::
 mail:x:14871::::::
@@ -43,3 +43,4 @@ postgres:!:17245:0:99999:7:::
 solr:!:17282:0:99999:7:::
 rabbitmq:!:17454::::::
 unbound:!:17469::::::
+cups:!!:17562::::::
