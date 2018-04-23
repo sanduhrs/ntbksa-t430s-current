@@ -79,4 +79,4 @@ rabbitmq:!::
 unbound:!::
 render:!!::
 cups:!!::
-lxd:!::
+lxd:!::sauditor

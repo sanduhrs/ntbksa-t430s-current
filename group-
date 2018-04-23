@@ -79,4 +79,4 @@ rabbitmq:x:197:
 unbound:x:608:
 render:x:993:
 cups:x:209:
-lxd:x:1003:
+lxd:x:1003:sauditor
