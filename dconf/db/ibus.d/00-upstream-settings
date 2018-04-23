@@ -44,11 +44,13 @@ show-icon-on-systray=true
 use-custom-font=false
 
 [desktop/ibus/panel/emoji]
+load-emoji-at-startup=true
 favorite-annotations=@as []
 favorites=@as []
 hotkey=['<Control><Shift>e']
 has-partial-match=false
 partial-match-length=3
+load-unicode-at-startup=false
 partial-match-condition=0
 font='Monospace 16'
 lang='en'
