@@ -1,17 +1,10 @@
-##                                          ##
-#       Antergos Repository Mirrorlist       #
-##                                          ##
+## Antergos Repository Mirrorlist
 
-##                                ##
-#    Automated Mirror Selection    #
-##                                ##
+# Automated Mirror Selection
 
 Server = http://mirrors.antergos.com/$repo/$arch
-#Server = http://sourceforge.net/projects/antergos/files/mirror/$repo/$arch
 
-##                                ##
-#     Manual Mirror Selection      #
-##                                ##
+# Manual Mirror Selection
 
 # Bulgaria
 Server = http://mirror.host.ag/antergos/$repo/$arch
@@ -38,11 +31,13 @@ Server = http://www.mirrorservice.org/sites/repo.antergos.com/$repo/$arch
 
 # Germany
 Server = http://mirror.de.leaseweb.net/antergos/$repo/$arch
-Server = http://antergos-mirror-a.alpix.eu/$repo/$arch
 Server = http://mirror.alpix.eu/antergos/$repo/$arch
 
 # Greece
 Server = http://ftp.cc.uoc.gr/mirrors/linux/antergos/$repo/$arch
+
+# Hungary
+Server = http://mirror.infotronik.hu/mirrors/pub/antergos/$repo/$arch
 
 # Japan
 Server = http://mirror.antergos.jp/$repo/$arch
@@ -51,6 +46,7 @@ Server = http://mirror.antergos.jp/$repo/$arch
 Server = http://mirror.nl.leaseweb.net/antergos/$repo/$arch
 Server = http://ftp1.nluug.nl/os/Linux/distr/antergos/$repo/$arch
 Server = http://ftp2.nluug.nl/os/Linux/distr/antergos/$repo/$arch
+Server = http://mirror.neostrada.nl/antergos/$repo/$arch
 
 # Portugal
 Server = http://glua.ua.pt/pub/antergos/$repo/$arch
@@ -69,4 +65,6 @@ Server = http://mirror.us.leaseweb.net/antergos/$repo/$arch
 Server = http://mirrors.tuxns.net/antergos/$repo/$arch
 Server = http://mirror.umd.edu/antergos/$repo/$arch
 Server = http://mirrors.acm.wpi.edu/antergos/$repo/$arch
+Server = http://mirrors.servercentral.com/antergos/$repo/$arch
+Server = http://antergos.mirror.constant.com/$repo/$arch
 Server = http://repo.antergos.info/$repo/$arch

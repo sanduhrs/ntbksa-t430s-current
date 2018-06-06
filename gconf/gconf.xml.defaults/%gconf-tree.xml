@@ -2,13 +2,13 @@
 <gconf>
 	<dir name="apps">
 		<dir name="gksu">
-			<entry name="save-keyring" mtime="1507557084" schema="/schemas/apps/gksu/save-keyring"/>
-			<entry name="save-to-keyring" mtime="1507557084" schema="/schemas/apps/gksu/save-to-keyring"/>
-			<entry name="display-no-pass-info" mtime="1507557084" schema="/schemas/apps/gksu/display-no-pass-info"/>
-			<entry name="prompt" mtime="1507557084" schema="/schemas/apps/gksu/prompt"/>
-			<entry name="sudo-mode" mtime="1507557084" schema="/schemas/apps/gksu/sudo-mode"/>
-			<entry name="force-grab" mtime="1507557084" schema="/schemas/apps/gksu/force-grab"/>
-			<entry name="disable-grab" mtime="1507557084" schema="/schemas/apps/gksu/disable-grab"/>
+			<entry name="save-keyring" mtime="1528278876" schema="/schemas/apps/gksu/save-keyring"/>
+			<entry name="save-to-keyring" mtime="1528278876" schema="/schemas/apps/gksu/save-to-keyring"/>
+			<entry name="display-no-pass-info" mtime="1528278876" schema="/schemas/apps/gksu/display-no-pass-info"/>
+			<entry name="prompt" mtime="1528278876" schema="/schemas/apps/gksu/prompt"/>
+			<entry name="sudo-mode" mtime="1528278876" schema="/schemas/apps/gksu/sudo-mode"/>
+			<entry name="force-grab" mtime="1528278876" schema="/schemas/apps/gksu/force-grab"/>
+			<entry name="disable-grab" mtime="1528278876" schema="/schemas/apps/gksu/disable-grab"/>
 		</dir>
 	</dir>
 	<dir name="system">
@@ -48,7 +48,7 @@
 	<dir name="schemas">
 		<dir name="apps">
 			<dir name="gksu">
-				<entry name="save-keyring" mtime="1507557084" type="schema" stype="string" owner="gksu">
+				<entry name="save-keyring" mtime="1528278876" type="schema" stype="string" owner="gksu" gettext_domain="libgksu">
 					<local_schema locale="C" short_desc="Keyring to which passwords will be saved">
 						<default type="string">
 							<stringvalue>session</stringvalue>
@@ -60,7 +60,7 @@
 	</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="save-to-keyring" mtime="1507557084" type="schema" stype="bool" owner="gksu">
+				<entry name="save-to-keyring" mtime="1528278876" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 					<local_schema locale="C" short_desc="Save password to gnome-keyring">
 						<default type="bool" value="true"/>
 						<longdesc>
@@ -69,7 +69,7 @@
 	</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="display-no-pass-info" mtime="1507557084" type="schema" stype="bool" owner="gksu">
+				<entry name="display-no-pass-info" mtime="1528278876" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 					<local_schema locale="C" short_desc="Display information message when no password is needed">
 						<default type="bool" value="true"/>
 						<longdesc>
@@ -79,7 +79,7 @@
 	</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="prompt" mtime="1507557084" type="schema" stype="bool" owner="gksu">
+				<entry name="prompt" mtime="1528278876" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 					<local_schema locale="C" short_desc="Prompt for grabbing">
 						<default type="bool" value="false"/>
 						<longdesc>
@@ -89,7 +89,7 @@
 	</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="sudo-mode" mtime="1507557084" type="schema" stype="bool" owner="gksu">
+				<entry name="sudo-mode" mtime="1528278876" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 					<local_schema locale="C" short_desc="Sudo mode">
 						<default type="bool" value="false"/>
 						<longdesc>
@@ -99,7 +99,7 @@
 	</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="force-grab" mtime="1507557084" type="schema" stype="bool" owner="gksu">
+				<entry name="force-grab" mtime="1528278876" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 					<local_schema locale="C" short_desc="Force keyboard and mouse grab">
 						<default type="bool" value="false"/>
 						<longdesc>
@@ -108,7 +108,7 @@
 	</longdesc>
 					</local_schema>
 				</entry>
-				<entry name="disable-grab" mtime="1507557084" type="schema" stype="bool" owner="gksu">
+				<entry name="disable-grab" mtime="1528278876" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 					<local_schema locale="C" short_desc="Disable keyboard and mouse grab">
 						<default type="bool" value="false"/>
 						<longdesc>
@@ -529,7 +529,7 @@
 					</dir>
 				</dir>
 				<dir name="typing_break">
-					<entry name="enabled" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="enabled" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Soll die Tastatur gesperrt werden?">
 							<default type="bool" value="false"/>
 							<longdesc>
@@ -537,7 +537,7 @@
          </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="allow_postpone" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="allow_postpone" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Verschieben von Pausen zulassen">
 							<default type="bool" value="false"/>
 							<longdesc>
@@ -545,7 +545,7 @@
          </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="break_time" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="break_time" mtime="1507817349" type="schema" stype="int" owner="gnome">
 						<local_schema locale="C" short_desc="Pausenzeit">
 							<default type="int" value="3"/>
 							<longdesc>
@@ -553,7 +553,7 @@
          </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="type_time" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="type_time" mtime="1507817349" type="schema" stype="int" owner="gnome">
 						<local_schema locale="C" short_desc="Tippdauer">
 							<default type="int" value="60"/>
 							<longdesc>
@@ -563,7 +563,7 @@
 					</entry>
 				</dir>
 				<dir name="thumbnailers">
-					<entry name="disable_all" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="disable_all" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Alle externen Miniatur-Vorschaubilderzeuger deaktivieren">
 							<default type="bool" value="false"/>
 							<longdesc>Sollen alle externen Programme zum Erzeugen von Miniatur-Vorschaubildern deaktiviert werden, unabhängig davon, ob sie anderweitig aktiviert wurden?</longdesc>
@@ -571,45 +571,27 @@
 					</entry>
 				</dir>
 				<dir name="thumbnail_cache">
-					<entry name="maximum_size" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
-						<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+					<entry name="maximum_size" mtime="1507817349" type="schema" stype="int" owner="gnome">
+						<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 							<default type="int" value="512"/>
 							<longdesc>Maximale Größer des Zwischenspeichers für die Miniatur-Vorschaubilder. Der Wert -1 deaktiviert das Löschen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="maximum_age" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
-						<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+					<entry name="maximum_age" mtime="1507817349" type="schema" stype="int" owner="gnome">
+						<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 							<default type="int" value="180"/>
 							<longdesc>Maximales Alter der Miniatur-Vorschaubilder im Zwischenspeicher, in Tagen. Der Wert -1 deaktiviert das Löschen.</longdesc>
 						</local_schema>
 					</entry>
 				</dir>
 				<dir name="sound">
-					<entry name="input_feedback_sounds" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="input_feedback_sounds" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Klänge bei Eingaben">
 							<default type="bool" value="false"/>
 							<longdesc>Sollen bei Eingabe-Ereignissen Klänge abgespielt werden?</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="theme_name" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="theme_name" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Name des Audio-Themas">
 							<default type="string">
 								<stringvalue>freedesktop</stringvalue>
@@ -617,26 +599,26 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Für Ereignis-Klänge zu verwendenes Audio-Thema.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="event_sounds" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="event_sounds" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Klänge bei Ereignissen">
 							<default type="bool" value="false"/>
 							<longdesc>Sollen bei Benutzer-Ereignissen Klänge abgespielt werden?</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="enable_esd" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="enable_esd" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="ESD aktivieren">
 							<default type="bool" value="false"/>
 							<longdesc>Soll der Sound-Server beim Start von GNOME gestartet werden?</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="default_mixer_tracks" mtime="1507817349" type="schema" stype="list" owner="gnome" gettext_domain="libgnome-2.0" list_type="string">
+					<entry name="default_mixer_tracks" mtime="1507817349" type="schema" stype="list" owner="gnome" list_type="string">
 						<local_schema locale="C" short_desc="Voreingestellte Mixer-Kanäle">
 							<default type="list" ltype="string">
 							</default>
 							<longdesc>Die voreingestellten Mixer-Kanäle die beim Verwenden der Multimedia-Tasten benutzt wird.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="default_mixer_device" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="default_mixer_device" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Voreingestelltes Mixer-Gerät">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -647,7 +629,7 @@ Content-Transfer-Encoding: 8bit
 				</dir>
 				<dir name="peripherals">
 					<dir name="mouse">
-						<entry name="cursor_size" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="cursor_size" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Zeigergröße">
 								<default type="int" value="18"/>
 								<longdesc>
@@ -655,7 +637,7 @@ Content-Transfer-Encoding: 8bit
 	</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="cursor_theme" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="cursor_theme" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Zeiger-Thema">
 								<longdesc>
 	  Cursor theme name. Used only by Xservers that support Xcursor,
@@ -663,7 +645,7 @@ Content-Transfer-Encoding: 8bit
 	</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="cursor_font" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="cursor_font" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Zeigerschrift">
 								<longdesc>
 	  Font name of the cursor. If unset, the default font is
@@ -673,26 +655,26 @@ Content-Transfer-Encoding: 8bit
 	</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="locate_pointer" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="locate_pointer" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 							<local_schema locale="C" short_desc="Mauszeiger finden">
 								<default type="bool" value="false"/>
 								<longdesc>Highlights the current location of the pointer when the
         Control key is pressed and released.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="double_click" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="double_click" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Doppelklick-Verzögerung">
 								<default type="int" value="400"/>
 								<longdesc>Länge eines Doppelklicks.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="drag_threshold" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="drag_threshold" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Ziehen Schwellwert">
 								<default type="int" value="8"/>
 								<longdesc>Distanz bevor das Ziehen einsetzt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="motion_threshold" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="motion_threshold" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Bewegungsschwellwert">
 								<default type="int" value="-1"/>
 								<longdesc>Distance in pixels the pointer must move before
@@ -700,20 +682,20 @@ Content-Transfer-Encoding: 8bit
         system default.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="motion_acceleration" mtime="1507817349" type="schema" stype="float" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="motion_acceleration" mtime="1507817349" type="schema" stype="float" owner="gnome">
 							<local_schema locale="C" short_desc="Einfacher Klick">
 								<default type="float" value="-1"/>
 								<longdesc>Acceleration multiplier for mouse motion.  A value of -1
         is the system default.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="single_click" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="single_click" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 							<local_schema locale="C" short_desc="Einfacher Klick">
 								<default type="bool" value="true"/>
 								<longdesc>Einfacher Klick zum Öffnen von Symbolen.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="left_handed" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="left_handed" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 							<local_schema locale="C" short_desc="Ausrichtung der Mausknöpfe">
 								<default type="bool" value="false"/>
 								<longdesc>Vertauscht den rechten und den linken Mausknopf, so dass Linkshänder die Maus verwenden können.</longdesc>
@@ -721,28 +703,19 @@ Content-Transfer-Encoding: 8bit
 						</entry>
 					</dir>
 					<dir name="keyboard">
-						<entry name="remember_numlock_state" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="remember_numlock_state" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 							<local_schema locale="C" short_desc="Status von NumLock speichern">
 								<default type="bool" value="true"/>
 								<longdesc>Falls auf TRUE (wahr) gesetzt, speichert GNOME den Status der NumLock-LED zwischen zwei Sitzungen.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bell_custom_file" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="bell_custom_file" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Benutzerdefinierter Dateiname für Tastaturglocke">
 								<longdesc>Dateiname des wiederzugebenden Glockenklangs.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bell_duration" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="bell_duration" mtime="1507817349" type="schema" stype="int" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="int" value="100"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -756,17 +729,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bell_pitch" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="bell_pitch" mtime="1507817349" type="schema" stype="int" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="int" value="400"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -780,34 +744,16 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bell_mode" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="bell_mode" mtime="1507817349" type="schema" stype="string" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="string">
 									<stringvalue>on</stringvalue>
 								</default>
 								<longdesc>Zulässige Werte: »on« (aktivieren), »off« (deaktivieren) sowie »custom« (benutzerdefiniert).</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="click_volume" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="click_volume" mtime="1507817349" type="schema" stype="int" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="int" value="0"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -821,17 +767,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="delay" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="delay" mtime="1507817349" type="schema" stype="int" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="int" value="500"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -845,17 +782,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="rate" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="rate" mtime="1507817349" type="schema" stype="int" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="int" value="30"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -869,17 +797,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="click" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="click" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="true"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -893,17 +812,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="repeat" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="repeat" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="true"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -920,7 +830,7 @@ Content-Transfer-Encoding: 8bit
 					</dir>
 				</dir>
 				<dir name="lockdown">
-					<entry name="disable_application_handlers" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="disable_application_handlers" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Verarbeitung von URL- und MIME-Typen verhinden">
 							<default type="bool" value="false"/>
 							<longdesc>
@@ -928,7 +838,7 @@ Content-Transfer-Encoding: 8bit
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_lock_screen" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="disable_lock_screen" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="»Bildschirm sperren« deaktivieren">
 							<default type="bool" value="false"/>
 							<longdesc>
@@ -936,7 +846,7 @@ Content-Transfer-Encoding: 8bit
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_user_switching" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="disable_user_switching" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Benutzerwechsel deaktivieren">
 							<default type="bool" value="false"/>
 							<longdesc>
@@ -945,7 +855,7 @@ Content-Transfer-Encoding: 8bit
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_print_setup" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="disable_print_setup" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Druckeinstellungen deaktivieren">
 							<default type="bool" value="false"/>
 							<longdesc>
@@ -955,7 +865,7 @@ Content-Transfer-Encoding: 8bit
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_printing" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="disable_printing" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Drucken deaktivieren">
 							<default type="bool" value="false"/>
 							<longdesc>
@@ -964,7 +874,7 @@ Content-Transfer-Encoding: 8bit
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_save_to_disk" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="disable_save_to_disk" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Speichern von Dateien auf Platte deaktivieren">
 							<default type="bool" value="false"/>
 							<longdesc>
@@ -974,7 +884,7 @@ Content-Transfer-Encoding: 8bit
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_command_line" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="disable_command_line" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Befehlszeile deaktivieren">
 							<default type="bool" value="false"/>
 							<longdesc>
@@ -986,21 +896,21 @@ Content-Transfer-Encoding: 8bit
 					</entry>
 				</dir>
 				<dir name="interface">
-					<entry name="show_unicode_menu" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="show_unicode_menu" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Das Menü »Unicode-Steuerzeichen einfügen« anzeigen">
 							<default type="bool" value="true"/>
 							<longdesc>Whether the context menus of entries and text views 
         should offer to insert control characters.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="show_input_method_menu" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="show_input_method_menu" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Das Menü »Eingabemethoden« anzeigen">
 							<default type="bool" value="true"/>
 							<longdesc>Whether the context menus of entries and text views 
         should offer to change the input method.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="menubar_accel" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="menubar_accel" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Menüleistetastenkürzel">
 							<default type="string">
 								<stringvalue>F10</stringvalue>
@@ -1008,7 +918,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Tastenkürzel um Menüleisten zu öffnen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="file_chooser_backend" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="file_chooser_backend" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Modul für GtkFileChooser">
 							<default type="string">
 								<stringvalue>gio</stringvalue>
@@ -1018,19 +928,19 @@ Content-Transfer-Encoding: 8bit
 	&quot;gtk+&quot;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="status_bar_meter_on_right" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="status_bar_meter_on_right" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Statusleiste rechts">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob Status-Anzeigen auf der rechten Seite angezeigt werden.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="use_custom_font" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="use_custom_font" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Benutzerdefinierte Schrift verwenden">
 							<default type="bool" value="false"/>
 							<longdesc>Soll eine benutzerdefinierte Schrift in GTK+-Anwendungen verwendet werden?</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="monospace_font_name" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="monospace_font_name" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Dicktengleiche Schrift">
 							<default type="string">
 								<stringvalue>Monospace 10</stringvalue>
@@ -1039,7 +949,7 @@ Content-Transfer-Encoding: 8bit
               in locations like terminals.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="document_font_name" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="document_font_name" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Dokumentenschrift">
 							<default type="string">
 								<stringvalue>Sans 10</stringvalue>
@@ -1047,7 +957,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Name der Vorgabeschrift zum Anzeigen von Dokumenten.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk-im-module" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="gtk-im-module" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="GTK-Eingabemethoden-Modul">
 							<default type="string">
 								<stringvalue></stringvalue>
@@ -1055,7 +965,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Name des von GTK+ genutzten Eingabemethoden-Moduls.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk-im-status-style" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="gtk-im-status-style" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Statusstil der GTK-Eingabemethoden">
 							<default type="string">
 								<stringvalue>callback</stringvalue>
@@ -1063,7 +973,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Name des von GTK+ verwendeten Statusstils der Eingabemethode.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk-im-preedit-style" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="gtk-im-preedit-style" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Stil der Vorbearbeitung der GTK-Eingabemethoden">
 							<default type="string">
 								<stringvalue>callback</stringvalue>
@@ -1071,7 +981,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Name des von GTK+ verwendeten Preedit-Stils der Eingabemethode.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="font_name" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="font_name" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Vorgabeschrift">
 							<default type="string">
 								<stringvalue>Sans 10</stringvalue>
@@ -1079,7 +989,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Name der von GTK+ verwendeten Vorgabeschrift.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk_key_theme" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="gtk_key_theme" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="GTK+-Thema">
 							<default type="string">
 								<stringvalue>Default</stringvalue>
@@ -1087,7 +997,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Basisname des von GTK+ verwendeten Vorgabethemas.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk_theme" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="gtk_theme" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="GTK+-Thema">
 							<default type="string">
 								<stringvalue>Clearlooks</stringvalue>
@@ -1095,7 +1005,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Basisname des von GTK+ verwendeten Vorgabethemas.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icon_theme" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="icon_theme" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Symbol-Thema">
 							<default type="string">
 								<stringvalue>gnome</stringvalue>
@@ -1103,19 +1013,19 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Für das Panel, Nautilus, usw. zu verwendendes Symbol-Thema.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="cursor_blink_time" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="cursor_blink_time" mtime="1507817349" type="schema" stype="int" owner="gnome">
 						<local_schema locale="C" short_desc="Cursor-Blinkfrequenz">
 							<default type="int" value="1200"/>
 							<longdesc>Die Cursor-Blinkfrequenz in Millisekunden.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="cursor_blink" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="cursor_blink" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Cursor-Blinken">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob der Cursor blinken soll.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="toolbar_icons_size" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="toolbar_icons_size" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Symbolgröße in Werkzeugleisten">
 							<default type="string">
 								<stringvalue>large-toolbar</stringvalue>
@@ -1124,31 +1034,31 @@ Content-Transfer-Encoding: 8bit
         &quot;large-toolbar&quot;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="toolbar_detachable" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="toolbar_detachable" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Werkzeugleisten abtrennbar">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob der Benutzer Werkzeugleisten abnehmen und verschieben kann.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="menubar_detachable" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="menubar_detachable" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Menüleiste ist abnehmbar">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob der Benutzer Menüleisten abnehmen und verschieben kann.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="buttons_have_icons" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="buttons_have_icons" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Knöpfe haben Symbole">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob Knöpfe ein Symbol neben dem Text anzeigen dürfen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="menus_have_icons" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="menus_have_icons" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Menüs haben Symbole">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob Menüs ein Symbol neben den Menüeinträgen anzeigen dürfen.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="toolbar_style" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="toolbar_style" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Werkzeugleisten-Stil">
 							<default type="string">
 								<stringvalue>both-horiz</stringvalue>
@@ -1157,20 +1067,20 @@ Content-Transfer-Encoding: 8bit
 	&quot;text&quot;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="can_change_accels" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="can_change_accels" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Veränderliche Tastenkombinationen">
 							<default type="bool" value="false"/>
 							<longdesc>Whether the user can dynamically type a new accelerator when 
 	positioned over an active menuitem.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="menus_have_tearoff" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="menus_have_tearoff" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Menüs haben Abreißer">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob in Menüs ein Abreißer angezeigt werden soll.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="enable_animations" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="enable_animations" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Animationen aktivieren">
 							<default type="bool" value="true"/>
 							<longdesc>Whether animations should be displayed. Note: This is a global
@@ -1178,7 +1088,7 @@ Content-Transfer-Encoding: 8bit
 	</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="accessibility" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="accessibility" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Barrierefreiheit aktivieren">
 							<default type="bool" value="false"/>
 							<longdesc>Legt fest, ob Anwendungen barrierefreien Zugriff ermöglichen sollen.</longdesc>
@@ -1186,7 +1096,7 @@ Content-Transfer-Encoding: 8bit
 					</entry>
 				</dir>
 				<dir name="file-views">
-					<entry name="icon_theme" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="icon_theme" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Dateisymbol-Thema">
 							<default type="string">
 								<stringvalue>crux_teal</stringvalue>
@@ -1196,7 +1106,7 @@ Content-Transfer-Encoding: 8bit
 					</entry>
 				</dir>
 				<dir name="background">
-					<entry name="color_shading_type" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="color_shading_type" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Typ der Farbschattierung">
 							<default type="string">
 								<stringvalue>solid</stringvalue>
@@ -1204,7 +1114,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Legt fest, wie die Hintergrundfarbe schattiert werden soll. Zulässige Werte: »horizontal-gradient« (Horizontaler Verlauf), »vertical-gradient« (Vertikaler Verlauf) sowie »solid« (Einfarbig).</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="secondary_color" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="secondary_color" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Zweite Farbe">
 							<default type="string">
 								<stringvalue>#66ba00</stringvalue>
@@ -1212,7 +1122,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Rechte bzw. untere Farbe beim Zeichnen eines Farbverlaufs. Bei einem einfarbigen Hintergrund wir diese Farbe nicht verwendet.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="primary_color" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="primary_color" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Erste Farbe">
 							<default type="string">
 								<stringvalue>#66ba00</stringvalue>
@@ -1220,13 +1130,13 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Linke bzw. obere Farbe beim Zeichnen eines Farbverlaufs, oder die bei einem einfarbigen Hintergrund verwendete Farbe.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="picture_opacity" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="picture_opacity" mtime="1507817349" type="schema" stype="int" owner="gnome">
 						<local_schema locale="C" short_desc="Deckkraft des Bildes">
 							<default type="int" value="100"/>
 							<longdesc>Deckkraft, mit der das Hintergrundbild gezeichnet wird.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="picture_filename" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="picture_filename" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Dateiname des Bildes">
 							<default type="string">
 								<stringvalue>/usr/share/pixmaps/backgrounds/gnome/background-default.jpg</stringvalue>
@@ -1234,7 +1144,7 @@ Content-Transfer-Encoding: 8bit
 							<longdesc>Als Hintergrundbild zu verwendende Datei.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="picture_options" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="picture_options" mtime="1507817349" type="schema" stype="string" owner="gnome">
 						<local_schema locale="C" short_desc="Bildoptionen">
 							<default type="string">
 								<stringvalue>zoom</stringvalue>
@@ -1244,7 +1154,7 @@ Content-Transfer-Encoding: 8bit
     &quot;stretched&quot;, &quot;zoom&quot;, &quot;spanned&quot;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="draw_background" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+					<entry name="draw_background" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 						<local_schema locale="C" short_desc="Desktop-Hintergrund zeichnen">
 							<default type="bool" value="true"/>
 							<longdesc>Legt fest, ob GNOME den Desktop-Hintergrund zeichnet.</longdesc>
@@ -1263,7 +1173,7 @@ Content-Transfer-Encoding: 8bit
 						</entry>
 					</dir>
 					<dir name="window_manager">
-						<entry name="workspace_names" mtime="1507817349" type="schema" stype="list" owner="gnome" gettext_domain="libgnome-2.0" list_type="string">
+						<entry name="workspace_names" mtime="1507817349" type="schema" stype="list" owner="gnome" list_type="string">
 							<local_schema locale="C" short_desc="Namen der Arbeitsflächen (veraltet)">
 								<longdesc>
           A list with names of the first window manager workspaces.
@@ -1271,7 +1181,7 @@ Content-Transfer-Encoding: 8bit
         </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="number_of_workspaces" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="number_of_workspaces" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Die Anzahl der Arbeitsflächen (veraltet)">
 								<longdesc>
           The number of workspaces the window manager should use
@@ -1279,7 +1189,7 @@ Content-Transfer-Encoding: 8bit
         </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="current" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="current" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Bevorzugter Fenster-Manager (veraltet)">
 								<longdesc>
           Window manager to try first.
@@ -1287,7 +1197,7 @@ Content-Transfer-Encoding: 8bit
         </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="default" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="default" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Fenster-Manager im Problemfall (veraltet)">
 								<longdesc>
           Fallback window manager if user window manager can&apos;t be found.
@@ -1297,7 +1207,7 @@ Content-Transfer-Encoding: 8bit
 						</entry>
 					</dir>
 					<dir name="terminal">
-						<entry name="exec_arg" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="exec_arg" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Ausführungsargumente">
 								<default type="string">
 									<stringvalue>-x</stringvalue>
@@ -1306,7 +1216,7 @@ Content-Transfer-Encoding: 8bit
 	by the &apos;exec&apos; key.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Terminal-Anwendung">
 								<default type="string">
 									<stringvalue>gnome-terminal</stringvalue>
@@ -1316,13 +1226,13 @@ Content-Transfer-Encoding: 8bit
 						</entry>
 					</dir>
 					<dir name="tasks">
-						<entry name="needs_term" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="needs_term" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 							<local_schema locale="C" short_desc="Aufgaben-Anwendung benötigt Terminal">
 								<default type="bool" value="false"/>
 								<longdesc>Legt fest, ob die voreingestellte Aufgaben-Anwendung ein Terminal benötigt, um ausgeführt zu werden</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Voreingestellte Aufgaben">
 								<default type="string">
 									<stringvalue>evolution</stringvalue>
@@ -1332,13 +1242,13 @@ Content-Transfer-Encoding: 8bit
 						</entry>
 					</dir>
 					<dir name="calendar">
-						<entry name="needs_term" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="needs_term" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 							<local_schema locale="C" short_desc="Kalender benötigt Terminal">
 								<default type="bool" value="false"/>
 								<longdesc>Legt fest, ob die voreingestellte Kalender-Anwendung ein Terminal benötigt, um ausgeführt zu werden</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Voreingestellter Kalender">
 								<default type="string">
 									<stringvalue>evolution</stringvalue>
@@ -1348,19 +1258,19 @@ Content-Transfer-Encoding: 8bit
 						</entry>
 					</dir>
 					<dir name="browser">
-						<entry name="nremote" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="nremote" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 							<local_schema locale="C" short_desc="Kann der Browser fernbedient werden?">
 								<default type="bool" value="true"/>
 								<longdesc>Legt fest, ob sich der Vorgabe-Browser mittels »netscape remote« fernbedienen lässt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="needs_term" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="needs_term" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 							<local_schema locale="C" short_desc="Browser benötigt Terminal">
 								<default type="bool" value="false"/>
 								<longdesc>Legt fest, ob der Vorgabe-Browser ein Terminal benötigt, um ausgeführt zu werden.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome">
 							<local_schema locale="C" short_desc="Vorgabe-Browser">
 								<default type="string">
 									<stringvalue>mozilla</stringvalue>
@@ -1371,13 +1281,13 @@ Content-Transfer-Encoding: 8bit
 					</dir>
 					<dir name="at">
 						<dir name="visual">
-							<entry name="startup" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<entry name="startup" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 								<local_schema locale="C" short_desc="Bevorzugte Anwendung für visuelle Hilfstechnologie starten">
 									<default type="bool" value="false"/>
 									<longdesc>Bevorzugte Anwendung für visuelle Hilfstechnologie beim Anmelden starten.</longdesc>
 								</local_schema>
 							</entry>
-							<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome">
 								<local_schema locale="C" short_desc="Bevorzugte Anwendung für visuelle Hilfstechnologie">
 									<default type="string">
 										<stringvalue>orca</stringvalue>
@@ -1387,13 +1297,13 @@ Content-Transfer-Encoding: 8bit
 							</entry>
 						</dir>
 						<dir name="mobility">
-							<entry name="startup" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<entry name="startup" mtime="1507817349" type="schema" stype="bool" owner="gnome">
 								<local_schema locale="C" short_desc="Bevorzugte Anwendung für mobile Hilfstechnologie starten">
 									<default type="bool" value="false"/>
 									<longdesc>Bevorzugte Anwendung für mobile Hilfstechnologie beim Anmelden starten.</longdesc>
 								</local_schema>
 							</entry>
-							<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<entry name="exec" mtime="1507817349" type="schema" stype="string" owner="gnome">
 								<local_schema locale="C" short_desc="Bevorzugte Anwendung für mobile Hilfstechnologie">
 									<default type="string">
 										<stringvalue>dasher</stringvalue>
@@ -1406,7 +1316,7 @@ Content-Transfer-Encoding: 8bit
 				</dir>
 				<dir name="accessibility">
 					<dir name="startup">
-						<entry name="exec_ats" mtime="1507817349" type="schema" stype="list" owner="gnome" gettext_domain="libgnome-2.0" list_type="string">
+						<entry name="exec_ats" mtime="1507817349" type="schema" stype="list" owner="gnome" list_type="string">
 							<local_schema locale="C" short_desc="Beim Anmelden zu startende Anwendungen, die Hilfstechnologie bereitstellen">
 								<default type="list" ltype="string">
 								</default>
@@ -1415,17 +1325,8 @@ Content-Transfer-Encoding: 8bit
 						</entry>
 					</dir>
 					<dir name="keyboard">
-						<entry name="togglekeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="togglekeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1439,47 +1340,20 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="stickykeys_modifier_beep" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="stickykeys_modifier_beep" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Signalton erzeugen, wenn ein Modifikator gedrückt wird</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="stickykeys_two_key_off" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="stickykeys_two_key_off" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Deaktivieren, wenn zwei Tasten gleichzeitig gedrückt werden</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="stickykeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="stickykeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1493,17 +1367,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_beep_reject" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="slowkeys_beep_reject" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1517,17 +1382,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_beep_accept" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="slowkeys_beep_accept" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1541,17 +1397,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_beep_press" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="slowkeys_beep_press" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1565,23 +1412,14 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_delay" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="slowkeys_delay" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Minimales Intervall in Millisekunden">
 								<default type="int" value="300"/>
 								<longdesc>Eine Taste nicht als gedrückt werten, wenn sie nicht @delay Millisekunden heruntergedrückt wurde.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="slowkeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1595,35 +1433,26 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="mousekeys_init_delay" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="mousekeys_init_delay" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Verzögerung in Millisekunden zu Beginn">
 								<default type="int" value="300"/>
 								<longdesc>Die Anzahl der Millisekunden, die abgewartet wird, bevor Maus-Bewegungstasten zu funktionieren beginnen.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="mousekeys_accel_time" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="mousekeys_accel_time" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Wie lang die Beschleunigung in Millisekunden dauern soll">
 								<default type="int" value="300"/>
 								<longdesc>Die Anzahl der Millisekunden von 0 bis zur maximalen Beschleunigung.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="mousekeys_max_speed" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="mousekeys_max_speed" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Pixel pro Sekunde">
 								<default type="int" value="10"/>
 								<longdesc>Die Anzahl der Pixel pro Sekunde, mit denen die Mausbewegung bei maximaler Geschwindigkeit erfolgt.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="mousekeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="mousekeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1637,17 +1466,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bouncekeys_beep_reject" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="bouncekeys_beep_reject" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1661,23 +1481,14 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bouncekeys_delay" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<entry name="bouncekeys_delay" mtime="1507817349" type="schema" stype="int" owner="gnome">
 							<local_schema locale="C" short_desc="Minimales Intervall in Millisekunden">
 								<default type="int" value="300"/>
 								<longdesc>Mehrmaliges Drücken _derselben_ Taste innerhalb von @delay Millisekunden ignorieren.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bouncekeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="bouncekeys_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1691,17 +1502,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="timeout" mtime="1507817349" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="timeout" mtime="1507817349" type="schema" stype="int" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="int" value="200"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1715,17 +1517,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="timeout_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="timeout_enable" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1739,17 +1532,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="feature_state_change_beep" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="feature_state_change_beep" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
@@ -1763,17 +1547,8 @@ Content-Transfer-Encoding: 8bit
 </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enable" mtime="1507817349" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
-							<local_schema locale="C" short_desc="Project-Id-Version: libgnome
-Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
-POT-Creation-Date: 2010-02-18 21:11+0000
-PO-Revision-Date: 2010-02-20 21:05+0100
-Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt;
-Language-Team: German &lt;gnome-de@gnome.org&gt;
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-">
+						<entry name="enable" mtime="1507817349" type="schema" stype="bool" owner="gnome">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general POT-Creation-Date: 2010-02-18 21:11+0000 PO-Revision-Date: 2010-02-20 21:05+0100 Last-Translator: Mario Blättermann &lt;mariobl@gnome.org&gt; Language-Team: German &lt;gnome-de@gnome.org&gt; MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit ">
 								<default type="bool" value="false"/>
 								<longdesc>Project-Id-Version: libgnome
 Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libgnome&amp;component=general
