@@ -81,3 +81,4 @@ cups:x:209:
 lxd:x:1003:sauditor
 postdrop:x:75:
 postfix:x:73:
+uwsgi:x:53:
