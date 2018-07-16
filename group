@@ -24,7 +24,7 @@ lock:x:54:
 uuidd:x:68:
 dbus:x:81:
 network:x:90:sauditor
-video:x:91:sauditor
+video:x:91:motion,sauditor
 audio:x:92:sauditor
 optical:x:93:
 floppy:x:94:
@@ -82,3 +82,4 @@ lxd:x:1003:sauditor
 postdrop:x:75:
 postfix:x:73:
 uwsgi:x:53:
+motion:x:991:
