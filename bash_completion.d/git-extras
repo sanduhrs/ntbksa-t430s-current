@@ -12,6 +12,7 @@ _git_changelog(){
     '--tag'
     '--final-tag'
     '--start-tag'
+    '--start-commit'
     '--no-merges'
     '--prune-old'
     '--stdout'
@@ -94,11 +95,11 @@ _git_graft(){
 _git_ignore(){
   case "$cur" in
   --*)
-    __gitcomp "--global --local"
+    __gitcomp "--global --local --private"
     return
     ;;
   -*)
-    __gitcomp "--global --local -g -l"
+    __gitcomp "--global --local --private -g -l -p"
     return
     ;;
   esac
