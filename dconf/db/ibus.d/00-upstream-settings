@@ -49,6 +49,7 @@ favorite-annotations=@as []
 favorites=@as []
 hotkey=['<Control><Shift>e']
 has-partial-match=false
+unicode-hotkey=['<Control><Shift>u']
 partial-match-length=3
 load-unicode-at-startup=false
 partial-match-condition=0
