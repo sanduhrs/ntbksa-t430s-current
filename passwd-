@@ -46,3 +46,5 @@ cups:x:209:209:cups helper user:/:/sbin/nologin
 postfix:x:73:73::/var/spool/postfix:/sbin/nologin
 motion:x:991:991::/var/lib/motion:/sbin/nologin
 gitlab-runner:x:107:107:GitLab Runner:/var/lib/gitlab-runner:/sbin/nologin
+test:x:1001:1004:test:/home/test:/bin/bash
+aur:x:1002:1002::/home/aur:/bin/bash

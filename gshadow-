@@ -84,3 +84,5 @@ postfix:!!::
 uwsgi:!!::
 motion:!!::
 gitlab-runner:!!::
+test:!::
+aur:!::
