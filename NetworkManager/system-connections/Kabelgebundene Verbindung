@@ -3,7 +3,7 @@ id=Kabelgebundene Verbindung
 uuid=11ed5122-1830-4d6e-bda3-914de11830dd
 type=ethernet
 permissions=
-timestamp=1538397112
+timestamp=1540563301
 
 [ethernet]
 mac-address-blacklist=
