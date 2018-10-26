@@ -85,4 +85,3 @@ uwsgi:x:53:
 motion:x:991:
 gitlab-runner:x:107:
 test:x:1004:
-aur:x:1002:
