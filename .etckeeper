@@ -566,7 +566,6 @@ maybe chmod 0444 'ca-certificates/extracted/cadir/VeriSign_Class_3_Public_Primar
 maybe chmod 0444 'ca-certificates/extracted/cadir/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/VeriSign_Universal_Root_Certification_Authority.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem'
-maybe chmod 0444 'ca-certificates/extracted/cadir/Visa_eCommerce_Root.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/XRamp_Global_CA_Root.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/certSIGN_ROOT_CA.pem'
 maybe chmod 0444 'ca-certificates/extracted/cadir/ePKI_Root_Certification_Authority.pem'
