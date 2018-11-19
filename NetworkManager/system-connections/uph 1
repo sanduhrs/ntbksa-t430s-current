@@ -12,7 +12,7 @@ ssid=uph
 
 [wifi-security]
 key-mgmt=wpa-psk
-psk=Geburtstage79388
+psk=Seminare76062
 
 [ipv4]
 dns-search=
