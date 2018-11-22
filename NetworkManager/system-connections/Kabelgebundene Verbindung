@@ -3,13 +3,12 @@ id=Kabelgebundene Verbindung
 uuid=11ed5122-1830-4d6e-bda3-914de11830dd
 type=ethernet
 permissions=
-timestamp=1540563301
+timestamp=1542900783
 
 [ethernet]
 mac-address-blacklist=
 
 [ipv4]
-dns=8.8.8.8;
 dns-search=
 method=auto
 
